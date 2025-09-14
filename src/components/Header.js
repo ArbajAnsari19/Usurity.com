@@ -13,24 +13,24 @@ const Header = () => {
       {/* Main Header */}
       <header className="bg-white border-b border-gray-100 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
+          <div className="flex justify-between items-center h-14 sm:h-16">
             {/* Logo */}
             <Link to="/" className="flex items-center">
-              <div className="bg-[#6A5ACD] text-white w-10 h-10 rounded-md flex items-center justify-center font-bold text-lg">
+              <div className="bg-[#6A5ACD] text-white w-8 h-8 sm:w-10 sm:h-10 rounded-md flex items-center justify-center font-bold text-sm sm:text-lg">
                 U
               </div>
-              <span className="ml-3 text-xl font-semibold text-gray-900">Usurity AI</span>
+              <span className="ml-2 sm:ml-3 text-lg sm:text-xl font-semibold text-gray-900">Usurity AI</span>
             </Link>
 
             {/* Desktop Navigation */}
-            <nav className="hidden md:flex items-center space-x-8">
-              <Link to="/about" className="text-gray-600 hover:text-gray-900 transition-colors font-medium">
+            <nav className="hidden md:flex items-center space-x-6 lg:space-x-8">
+              <Link to="/about" className="text-gray-600 hover:text-gray-900 transition-colors font-medium text-sm lg:text-base">
                 About Us
               </Link>
-              <Link to="/solutions" className="text-gray-600 hover:text-gray-900 transition-colors font-medium">
+              <Link to="/solutions" className="text-gray-600 hover:text-gray-900 transition-colors font-medium text-sm lg:text-base">
                 Solutions
               </Link>
-              <Link to="/blog" className="text-gray-600 hover:text-gray-900 transition-colors font-medium">
+              <Link to="/blog" className="text-gray-600 hover:text-gray-900 transition-colors font-medium text-sm lg:text-base">
                 Blog
               </Link>
             </nav>
@@ -38,7 +38,7 @@ const Header = () => {
             {/* CTA Button */}
             <div className="hidden md:flex items-center">
               <Button 
-                className="!bg-[#6A5ACD] hover:!bg-[#5A4ABD] text-white px-6 py-2 rounded-lg font-medium transition-all duration-200 hover:shadow-lg"
+                className="!bg-[#6A5ACD] hover:!bg-[#5A4ABD] text-white px-4 lg:px-6 py-2 rounded-lg font-medium transition-all duration-200 hover:shadow-lg text-sm lg:text-base"
               >
                 Book a demo
               </Button>
@@ -47,30 +47,45 @@ const Header = () => {
             {/* Mobile Menu Button */}
             <button
               onClick={toggleMenu}
-              className="md:hidden p-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-100"
+              className="md:hidden p-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-100 transition-colors"
             >
-              {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+              {isMenuOpen ? <X size={20} /> : <Menu size={20} />}
             </button>
           </div>
 
           {/* Mobile Menu */}
           {isMenuOpen && (
-            <div className="md:hidden py-4 border-t border-gray-100">
-              <div className="flex flex-col space-y-4">
-                <Link to="/about" className="text-gray-600 hover:text-gray-900 font-medium">
+            <div className="md:hidden py-4 border-t border-gray-100 bg-white">
+              <div className="flex flex-col space-y-3">
+                <Link 
+                  to="/about" 
+                  className="text-gray-600 hover:text-gray-900 font-medium py-2 px-2 rounded-md hover:bg-gray-50 transition-colors"
+                  onClick={() => setIsMenuOpen(false)}
+                >
                   About Us
                 </Link>
-                <Link to="/solutions" className="text-gray-600 hover:text-gray-900 font-medium">
+                <Link 
+                  to="/solutions" 
+                  className="text-gray-600 hover:text-gray-900 font-medium py-2 px-2 rounded-md hover:bg-gray-50 transition-colors"
+                  onClick={() => setIsMenuOpen(false)}
+                >
                   Solutions
                 </Link>
-                <Link to="/blog" className="text-gray-600 hover:text-gray-900 font-medium">
+                <Link 
+                  to="/blog" 
+                  className="text-gray-600 hover:text-gray-900 font-medium py-2 px-2 rounded-md hover:bg-gray-50 transition-colors"
+                  onClick={() => setIsMenuOpen(false)}
+                >
                   Blog
                 </Link>
-                <Button 
-                  className="!bg-[#6A5ACD] hover:!bg-[#5A4ABD] text-white px-6 py-2 rounded-lg font-medium w-fit"
-                >
-                  Book a demo
-                </Button>
+                <div className="pt-2">
+                  <Button 
+                    className="!bg-[#6A5ACD] hover:!bg-[#5A4ABD] text-white px-6 py-2 rounded-lg font-medium w-full sm:w-fit"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    Book a demo
+                  </Button>
+                </div>
               </div>
             </div>
           )}

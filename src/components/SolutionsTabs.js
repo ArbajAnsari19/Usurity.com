@@ -14,40 +14,40 @@ const SolutionsTabs = () => {
 
   const tabContent = {
     'Claims Management': (
-      <div className="flex flex-col lg:flex-row gap-8 p-8">
+      <div className="flex flex-col lg:flex-row gap-6 sm:gap-8 p-4 sm:p-6 lg:p-8">
         {/* Left Panel */}
         <div className="lg:w-1/2 flex flex-col justify-center">
-          <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-[#6A5ACD] mb-4 w-fit">
+          <span className="inline-flex items-center px-3 py-1 rounded-full text-xs sm:text-sm font-medium bg-blue-100 text-[#6A5ACD] mb-4 w-fit">
             Case Study
           </span>
-          <h2 className="text-4xl font-bold text-[#6A5ACD] mb-6 font-serif">Claims Management</h2>
-          <p className="text-gray-700 text-lg mb-8">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#6A5ACD] mb-4 sm:mb-6 font-serif">Claims Management</h2>
+          <p className="text-gray-700 text-sm sm:text-base lg:text-lg mb-6 sm:mb-8">
             A specialty insurer with over three consecutive years of &gt;20% premium growth and an expansion
             from five to ten insurance programs faced a critical operational bottleneck - claims workflows.
           </p>
-          <button className="bg-[#6A5ACD] hover:bg-[#5A4ABD] text-white px-8 py-3 rounded-lg font-medium transition-all duration-200 hover:shadow-lg self-start">
+          <button className="bg-[#6A5ACD] hover:bg-[#5A4ABD] text-white px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-medium transition-all duration-200 hover:shadow-lg self-start text-sm sm:text-base">
             Learn More
           </button>
         </div>
 
         {/* Right Panel */}
-        <div className="lg:w-1/2 bg-gray-50 rounded-lg p-6 shadow-md flex flex-col justify-center">
+        <div className="lg:w-1/2 bg-gray-50 rounded-lg p-4 sm:p-6 shadow-md flex flex-col justify-center">
           <div className="flex items-center justify-between mb-4">
-            <h3 className="text-xl font-semibold text-gray-800 flex items-center">
-              <span className="inline-block w-3 h-3 bg-orange-500 rounded-full mr-2"></span>
-              Claims Intake Successfully Executed
+            <h3 className="text-lg sm:text-xl font-semibold text-gray-800 flex items-center">
+              <span className="inline-block w-2 h-2 sm:w-3 sm:h-3 bg-orange-500 rounded-full mr-2"></span>
+              <span className="text-sm sm:text-base lg:text-lg">Claims Intake Successfully Executed</span>
             </h3>
-            <span className="text-gray-500 text-sm">5 Steps <span className="ml-1">^</span></span>
+            <span className="text-gray-500 text-xs sm:text-sm">5 Steps <span className="ml-1">^</span></span>
           </div>
-          <ul className="space-y-3 mb-6">
-            <li className="flex items-center text-gray-700">
-              <CheckCircle className="w-5 h-5 text-green-500 mr-2" /> Received Submission
+          <ul className="space-y-2 sm:space-y-3 mb-4 sm:mb-6">
+            <li className="flex items-center text-gray-700 text-sm sm:text-base">
+              <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-green-500 mr-2 flex-shrink-0" /> Received Submission
             </li>
-            <li className="flex items-center text-gray-700">
-              <CheckCircle className="w-5 h-5 text-green-500 mr-2" /> Read Email
+            <li className="flex items-center text-gray-700 text-sm sm:text-base">
+              <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-green-500 mr-2 flex-shrink-0" /> Read Email
             </li>
-            <li className="flex items-center text-gray-700">
-              <CheckCircle className="w-5 h-5 text-green-500 mr-2" /> Classified document(s) as GAP
+            <li className="flex items-center text-gray-700 text-sm sm:text-base">
+              <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-green-500 mr-2 flex-shrink-0" /> Classified document(s) as GAP
             </li>
             <li className="flex items-center text-gray-700">
               <CheckCircle className="w-5 h-5 text-green-500 mr-2" /> Extracted GAP claim information
@@ -324,14 +324,14 @@ const SolutionsTabs = () => {
   };
 
   return (
-    <section className="py-16 bg-white">
+    <section className="py-12 sm:py-16 lg:py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Tab Navigation */}
-        <div className="flex justify-center mb-12 bg-gray-100 rounded-xl p-2 shadow-sm">
+        <div className="flex flex-wrap justify-center gap-1 sm:gap-2 mb-8 sm:mb-12 bg-gray-100 rounded-xl p-1 sm:p-2 shadow-sm">
           {tabs.map((tab) => (
             <button
               key={tab.id}
-              className={`px-6 py-3 text-lg font-medium rounded-lg transition-all duration-300 whitespace-nowrap
+              className={`px-3 sm:px-6 py-2 sm:py-3 text-sm sm:text-lg font-medium rounded-lg transition-all duration-300 whitespace-nowrap
                 ${activeTab === tab.id
                   ? 'bg-white text-gray-900 shadow-md'
                   : 'text-gray-600 hover:bg-gray-200'

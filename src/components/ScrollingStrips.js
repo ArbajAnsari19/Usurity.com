@@ -81,19 +81,21 @@ const ScrollingStrips = () => {
   return (
     <div className="relative overflow-hidden bg-gray-50">
       {/* First strip - moving left to right */}
-      <div className="flex animate-scroll-right h-[150px]">
-        <div className="flex space-x-8 whitespace-nowrap">
+      <div className="flex animate-scroll-right h-[120px] sm:h-[150px]">
+        <div className="flex space-x-4 sm:space-x-8 whitespace-nowrap">
           {[...strip1Items, ...strip1Items].map((item, index) => (
             <div
               key={`strip1-${index}`}
-              className="flex items-center space-x-4 bg-white rounded-lg px-6 py-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300 min-w-[280px]"
+              className="flex items-center space-x-2 sm:space-x-4 bg-white rounded-lg px-3 sm:px-6 py-3 sm:py-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300 min-w-[200px] sm:min-w-[280px]"
             >
               <div className="flex-shrink-0">
-                {item.icon}
+                <div className="w-4 h-4 sm:w-6 sm:h-6">
+                  {item.icon}
+                </div>
               </div>
-              <div className="flex flex-col">
-                <span className="text-gray-800 font-semibold text-sm">{item.title}</span>
-                <span className="text-gray-600 text-xs">{item.description}</span>
+              <div className="flex flex-col min-w-0">
+                <span className="text-gray-800 font-semibold text-xs sm:text-sm truncate">{item.title}</span>
+                <span className="text-gray-600 text-xs leading-tight hidden sm:block">{item.description}</span>
               </div>
             </div>
           ))}
@@ -101,19 +103,21 @@ const ScrollingStrips = () => {
       </div>
 
       {/* Second strip - moving right to left */}
-      <div className="flex animate-scroll-left mt-4 h-[150px]">
-        <div className="flex space-x-8 whitespace-nowrap">
+      <div className="flex animate-scroll-left mt-2 sm:mt-4 h-[120px] sm:h-[150px]">
+        <div className="flex space-x-4 sm:space-x-8 whitespace-nowrap">
           {[...strip2Items, ...strip2Items].map((item, index) => (
             <div
               key={`strip2-${index}`}
-              className="flex items-center space-x-4 bg-white rounded-lg px-6 py-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300 min-w-[280px]"
+              className="flex items-center space-x-2 sm:space-x-4 bg-white rounded-lg px-3 sm:px-6 py-3 sm:py-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300 min-w-[200px] sm:min-w-[280px]"
             >
               <div className="flex-shrink-0">
-                {item.icon}
+                <div className="w-4 h-4 sm:w-6 sm:h-6">
+                  {item.icon}
+                </div>
               </div>
-              <div className="flex flex-col">
-                <span className="text-gray-800 font-semibold text-sm">{item.title}</span>
-                <span className="text-gray-600 text-xs">{item.description}</span>
+              <div className="flex flex-col min-w-0">
+                <span className="text-gray-800 font-semibold text-xs sm:text-sm truncate">{item.title}</span>
+                <span className="text-gray-600 text-xs leading-tight hidden sm:block">{item.description}</span>
               </div>
             </div>
           ))}
@@ -121,8 +125,8 @@ const ScrollingStrips = () => {
       </div>
 
       {/* Gradient overlays for smooth fade effect */}
-      <div className="absolute top-0 left-0 w-20 h-full bg-gradient-to-r from-gray-50 to-transparent pointer-events-none z-10"></div>
-      <div className="absolute top-0 right-0 w-20 h-full bg-gradient-to-l from-gray-50 to-transparent pointer-events-none z-10"></div>
+      <div className="absolute top-0 left-0 w-8 sm:w-20 h-full bg-gradient-to-r from-gray-50 to-transparent pointer-events-none z-10"></div>
+      <div className="absolute top-0 right-0 w-8 sm:w-20 h-full bg-gradient-to-l from-gray-50 to-transparent pointer-events-none z-10"></div>
     </div>
   );
 };
