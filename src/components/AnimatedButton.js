@@ -69,11 +69,11 @@ const StyledWrapper = styled.div`
   
   .button {
     --white: #ffffff;
-    --green-100: #e8f5e8;
-    --green-200: #c8e6c8;
-    --green-300: #a8d8a8;
-    --green-400: #2D5A3D;
-    --green-500: #234A30;
+    --green-100: #E8E4FF;
+    --green-200: #D1C7FF;
+    --green-300: #A38FFF;
+    --green-400: #6A5ACD;
+    --green-500: #5A4ABD;
     --radius: 14px;
 
     border-radius: var(--radius);
@@ -108,13 +108,13 @@ const StyledWrapper = styled.div`
     filter: blur(5px);
     transition: all 0.3s ease;
     box-shadow:
-      0 4px 0 0 rgb(35 74 48 / 40%),
-      0 8px 0 0 rgb(35 74 48 / 30%),
-      0 12px 4px 0 rgb(35 74 48 / 25%),
-      0 16px 8px 0 rgb(35 74 48 / 15%),
-      0 20px 12px 0 rgb(35 74 48 / 12%),
-      0 24px 16px 0 rgb(35 74 48 / 8%),
-      0 28px 20px 0 rgb(35 74 48 / 5%);
+      0 4px 0 0 rgb(90 74 189 / 40%),
+      0 8px 0 0 rgb(90 74 189 / 30%),
+      0 12px 4px 0 rgb(90 74 189 / 25%),
+      0 16px 8px 0 rgb(90 74 189 / 15%),
+      0 20px 12px 0 rgb(90 74 189 / 12%),
+      0 24px 16px 0 rgb(90 74 189 / 8%),
+      0 28px 20px 0 rgb(90 74 189 / 5%);
   }
 
   .wrap {
@@ -339,13 +339,13 @@ const StyledWrapper = styled.div`
     filter: blur(5px);
     opacity: 0.7;
     box-shadow:
-      0 2px 0 0 rgb(35 74 48 / 40%),
-      0 4px 0 0 rgb(35 74 48 / 25%),
-      0 6px 4px 0 rgb(35 74 48 / 15%);
+      0 2px 0 0 rgb(90 74 189 / 40%),
+      0 4px 0 0 rgb(90 74 189 / 25%),
+      0 6px 4px 0 rgb(90 74 189 / 15%);
   }
   .button:active .content {
     box-shadow:
-      inset -1px 12px 8px -5px rgba(45, 90, 61, 0.4),
+      inset -1px 12px 8px -5px rgba(106, 90, 205, 0.4),
       inset 0px -3px 8px 0px var(--green-200);
   }
 
@@ -478,7 +478,7 @@ const StyledWrapper = styled.div`
     }
     to {
       stroke-dashoffset: -480;
-      stroke: #c8e6c8;
+      stroke: #D1C7FF;
     }
   }
 

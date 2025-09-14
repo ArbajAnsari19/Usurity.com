@@ -4,37 +4,37 @@ import { TrendingUp, CheckCircle, FileText, Shield, Search, Globe, Building, Use
 const ScrollingStrips = () => {
   const strip1Items = [
     {
-      icon: <TrendingUp className="w-6 h-6 text-[#2D5A3D]" />,
+      icon: <TrendingUp className="w-6 h-6 text-[#6A5ACD]" />,
       title: "Risk Comparison",
       description: "AI-powered risk assessment and comparison tools"
     },
     {
-      icon: <CheckCircle className="w-6 h-6 text-[#2D5A3D]" />,
+      icon: <CheckCircle className="w-6 h-6 text-[#6A5ACD]" />,
       title: "Underwriting Audit",
       description: "Automated underwriting process validation"
     },
     {
-      icon: <FileText className="w-6 h-6 text-[#2D5A3D]" />,
+      icon: <FileText className="w-6 h-6 text-[#6A5ACD]" />,
       title: "Submission Processing",
       description: "Streamlined submission intake and processing"
     },
     {
-      icon: <Shield className="w-6 h-6 text-[#2D5A3D]" />,
+      icon: <Shield className="w-6 h-6 text-[#6A5ACD]" />,
       title: "SOCO",
       description: "Statement of Commercial Operations management"
     },
     {
-      icon: <Search className="w-6 h-6 text-[#2D5A3D]" />,
+      icon: <Search className="w-6 h-6 text-[#6A5ACD]" />,
       title: "Web Research",
       description: "Intelligent web-based research capabilities"
     },
     {
-      icon: <Globe className="w-6 h-6 text-[#2D5A3D]" />,
+      icon: <Globe className="w-6 h-6 text-[#6A5ACD]" />,
       title: "FNOL",
       description: "First Notice of Loss processing automation"
     },
     {
-      icon: <Building className="w-6 h-6 text-[#2D5A3D]" />,
+      icon: <Building className="w-6 h-6 text-[#6A5ACD]" />,
       title: "Policy Analysis",
       description: "Comprehensive policy review and analysis"
     }

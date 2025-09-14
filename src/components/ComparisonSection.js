@@ -82,7 +82,7 @@ const ComparisonSection = () => {
           </div>
 
           {/* The FurtherAI Way */}
-          <div className="bg-gradient-to-br from-[#2D5A3D] to-[#1E3A28] rounded-2xl p-8 text-white">
+          <div className="bg-gradient-to-br from-[#6A5ACD] to-[#4A3A9D] rounded-2xl p-8 text-white">
             <div className="text-center mb-8">
               <h3 className="text-2xl font-bold mb-4">The Usurity AI Way</h3>
             </div>

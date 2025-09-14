@@ -14,7 +14,7 @@ const HeroSection = () => {
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                 Trusted AI for 
                 <br />
-                <span className="text-[#2D5A3D]">Insurance Experts</span>
+                <span className="text-[#6A5ACD]">Insurance Experts</span>
               </h1>
               
               <p className="text-xl text-gray-600 leading-relaxed max-w-2xl">

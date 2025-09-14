@@ -15,22 +15,22 @@ import {
 const BlogPage = () => {
   const features = [
     {
-      icon: <PenTool className="w-8 h-8 text-[#2D5A3D]" />,
+      icon: <PenTool className="w-8 h-8 text-[#6A5ACD]" />,
       title: "Expert Insights",
       description: "Deep dives into insurance technology and AI innovations"
     },
     {
-      icon: <TrendingUp className="w-8 h-8 text-[#2D5A3D]" />,
+      icon: <TrendingUp className="w-8 h-8 text-[#6A5ACD]" />,
       title: "Industry Trends",
       description: "Latest developments in commercial insurance and automation"
     },
     {
-      icon: <Users className="w-8 h-8 text-[#2D5A3D]" />,
+      icon: <Users className="w-8 h-8 text-[#6A5ACD]" />,
       title: "Customer Stories",
       description: "Real-world success stories from our insurance partners"
     },
     {
-      icon: <Lightbulb className="w-8 h-8 text-[#2D5A3D]" />,
+      icon: <Lightbulb className="w-8 h-8 text-[#6A5ACD]" />,
       title: "Best Practices",
       description: "Actionable tips for modernizing insurance operations"
     }
@@ -44,7 +44,7 @@ const BlogPage = () => {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-gray-100">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
-            <BookOpen className="w-20 h-20 text-[#2D5A3D] mx-auto mb-6" />
+            <BookOpen className="w-20 h-20 text-[#6A5ACD] mx-auto mb-6" />
           </div>
           <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
             Blog
@@ -54,11 +54,11 @@ const BlogPage = () => {
               Coming Soon
             </h2>
             <div className="flex items-center justify-center space-x-2 mb-4">
-              <div className="w-2 h-2 bg-[#2D5A3D] rounded-full"></div>
-              <div className="w-2 h-2 bg-[#2D5A3D] rounded-full"></div>
-              <div className="w-2 h-2 bg-[#2D5A3D] rounded-full"></div>
+              <div className="w-2 h-2 bg-[#6A5ACD] rounded-full"></div>
+              <div className="w-2 h-2 bg-[#6A5ACD] rounded-full"></div>
+              <div className="w-2 h-2 bg-[#6A5ACD] rounded-full"></div>
             </div>
-            <p className="text-xl text-[#2D5A3D] font-semibold">
+            <p className="text-xl text-[#6A5ACD] font-semibold">
               Stay tuned for insightful content
             </p>
           </div>
@@ -74,7 +74,7 @@ const BlogPage = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">What to Expect</h2>
-            <div className="w-24 h-1 bg-[#2D5A3D] mx-auto mb-8"></div>
+            <div className="w-24 h-1 bg-[#6A5ACD] mx-auto mb-8"></div>
             <p className="text-xl text-gray-600">Content that drives innovation in insurance</p>
           </div>
 
@@ -96,7 +96,7 @@ const BlogPage = () => {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-4xl mx-auto text-center">
           <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-200">
-            <Mail className="w-12 h-12 text-[#2D5A3D] mx-auto mb-6" />
+            <Mail className="w-12 h-12 text-[#6A5ACD] mx-auto mb-6" />
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Be the First to Know
             </h2>
@@ -109,9 +109,9 @@ const BlogPage = () => {
               <input
                 type="email"
                 placeholder="Enter your email address"
-                className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2D5A3D] focus:border-transparent outline-none"
+                className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#6A5ACD] focus:border-transparent outline-none"
               />
-              <button className="bg-[#2D5A3D] hover:bg-[#234A30] text-white px-6 py-3 rounded-lg font-semibold transition-colors flex items-center justify-center space-x-2">
+              <button className="bg-[#6A5ACD] hover:bg-[#5A4ABD] text-white px-6 py-3 rounded-lg font-semibold transition-colors flex items-center justify-center space-x-2">
                 <span>Notify Me</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
@@ -128,14 +128,14 @@ const BlogPage = () => {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
-            <Clock className="w-12 h-12 text-[#2D5A3D] mx-auto mb-6" />
+            <Clock className="w-12 h-12 text-[#6A5ACD] mx-auto mb-6" />
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Launch Timeline</h2>
             <p className="text-lg text-gray-600">We're working hard to bring you exceptional content</p>
           </div>
 
           <div className="space-y-8">
             <div className="flex items-center space-x-6">
-              <div className="w-4 h-4 bg-[#2D5A3D] rounded-full flex-shrink-0"></div>
+              <div className="w-4 h-4 bg-[#6A5ACD] rounded-full flex-shrink-0"></div>
               <div className="flex-1">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Content Strategy & Planning</h3>
                 <p className="text-gray-600">Developing comprehensive content themes and editorial calendar</p>
@@ -170,7 +170,7 @@ const BlogPage = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#2D5A3D] to-[#1E3A28]">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#6A5ACD] to-[#4A3A9D]">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
             Ready to Transform Your Insurance Operations?
@@ -179,10 +179,10 @@ const BlogPage = () => {
             While you wait for our blog, explore our AI-powered solutions
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-[#2D5A3D] px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+            <button className="bg-white text-[#6A5ACD] px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
               Explore Solutions
             </button>
-            <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-[#2D5A3D] transition-colors">
+            <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-[#6A5ACD] transition-colors">
               Book a Demo
             </button>
           </div>

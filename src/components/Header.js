@@ -16,7 +16,7 @@ const Header = () => {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <Link to="/" className="flex items-center">
-              <div className="bg-[#2D5A3D] text-white w-10 h-10 rounded-md flex items-center justify-center font-bold text-lg">
+              <div className="bg-[#6A5ACD] text-white w-10 h-10 rounded-md flex items-center justify-center font-bold text-lg">
                 U
               </div>
               <span className="ml-3 text-xl font-semibold text-gray-900">Usurity AI</span>
@@ -38,7 +38,7 @@ const Header = () => {
             {/* CTA Button */}
             <div className="hidden md:flex items-center">
               <Button 
-                className="bg-[#2D5A3D] hover:bg-[#234A30] text-white px-6 py-2 rounded-lg font-medium transition-all duration-200 hover:shadow-lg"
+                className="!bg-[#6A5ACD] hover:!bg-[#5A4ABD] text-white px-6 py-2 rounded-lg font-medium transition-all duration-200 hover:shadow-lg"
               >
                 Book a demo
               </Button>
@@ -67,7 +67,7 @@ const Header = () => {
                   Blog
                 </Link>
                 <Button 
-                  className="bg-[#2D5A3D] hover:bg-[#234A30] text-white px-6 py-2 rounded-lg font-medium w-fit"
+                  className="!bg-[#6A5ACD] hover:!bg-[#5A4ABD] text-white px-6 py-2 rounded-lg font-medium w-fit"
                 >
                   Book a demo
                 </Button>

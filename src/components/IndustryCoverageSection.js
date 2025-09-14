@@ -44,7 +44,7 @@ const IndustryCoverageSection = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Video Placeholder */}
             <div className="relative">
-              <div className="aspect-video bg-gradient-to-br from-[#2D5A3D] to-[#1E3A28] rounded-xl flex items-center justify-center relative overflow-hidden">
+              <div className="aspect-video bg-gradient-to-br from-[#6A5ACD] to-[#4A3A9D] rounded-xl flex items-center justify-center relative overflow-hidden">
                 {/* Video Thumbnail Background */}
                 <div className="absolute inset-0 bg-black bg-opacity-20"></div>
                 
@@ -78,15 +78,15 @@ const IndustryCoverageSection = () => {
               {/* Key Points */}
               <div className="space-y-3">
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-[#2D5A3D] rounded-full mt-2"></div>
+                  <div className="w-2 h-2 bg-[#6A5ACD] rounded-full mt-2"></div>
                   <span className="text-gray-700">How AI reduces manual underwriting by 95%</span>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-[#2D5A3D] rounded-full mt-2"></div>
+                  <div className="w-2 h-2 bg-[#6A5ACD] rounded-full mt-2"></div>
                   <span className="text-gray-700">Industry best practices for AI implementation</span>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-[#2D5A3D] rounded-full mt-2"></div>
+                  <div className="w-2 h-2 bg-[#6A5ACD] rounded-full mt-2"></div>
                   <span className="text-gray-700">Future of insurance technology and automation</span>
                 </div>
               </div>

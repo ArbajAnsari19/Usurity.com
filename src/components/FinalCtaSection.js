@@ -4,7 +4,7 @@ import { CheckCircle, Clock, Eye } from "lucide-react";
 
 const FinalCtaSection = () => {
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#2D5A3D] to-[#1E3A28] relative overflow-hidden">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#6A5ACD] to-[#4A3A9D] relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0">
@@ -32,7 +32,7 @@ const FinalCtaSection = () => {
         {/* Logo */}
         <div className="mb-8">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-white rounded-lg">
-            <span className="text-2xl font-bold text-[#2D5A3D]">F</span>
+            <span className="text-2xl font-bold text-[#6A5ACD]">F</span>
           </div>
         </div>
 

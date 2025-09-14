@@ -51,7 +51,7 @@ const TrustedBySection = () => {
         {/* CTA Section */}
         <div className="text-center">
           <Button 
-            className="bg-[#2D5A3D] hover:bg-[#234A30] text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-200 hover:shadow-xl hover:scale-105"
+            className="!bg-[#6A5ACD] hover:!bg-[#5A4ABD] text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-200 hover:shadow-xl hover:scale-105"
           >
             Join leading MGAs using FurtherAI
           </Button>

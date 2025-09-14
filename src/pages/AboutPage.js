@@ -34,22 +34,22 @@ const AboutPage = () => {
 
   const values = [
     {
-      icon: <Target className="w-8 h-8 text-[#2D5A3D]" />,
+      icon: <Target className="w-8 h-8 text-[#6A5ACD]" />,
       title: "Mission-Driven",
       description: "Transforming insurance operations through intelligent automation"
     },
     {
-      icon: <Users className="w-8 h-8 text-[#2D5A3D]" />,
+      icon: <Users className="w-8 h-8 text-[#6A5ACD]" />,
       title: "Expert Team",
       description: "Seasoned insurance operators and AI experts working together"
     },
     {
-      icon: <Zap className="w-8 h-8 text-[#2D5A3D]" />,
+      icon: <Zap className="w-8 h-8 text-[#6A5ACD]" />,
       title: "Innovation",
       description: "Building advanced AI solutions for commercial insurance"
     },
     {
-      icon: <Shield className="w-8 h-8 text-[#2D5A3D]" />,
+      icon: <Shield className="w-8 h-8 text-[#6A5ACD]" />,
       title: "Trust & Security",
       description: "Enterprise-grade security and compliance standards"
     }
@@ -76,7 +76,7 @@ const AboutPage = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Mission</h2>
-            <div className="w-24 h-1 bg-[#2D5A3D] mx-auto mb-8"></div>
+            <div className="w-24 h-1 bg-[#6A5ACD] mx-auto mb-8"></div>
           </div>
 
           <div className="prose prose-lg max-w-none">
@@ -151,7 +151,7 @@ const AboutPage = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#2D5A3D] to-[#1E3A28]">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#6A5ACD] to-[#4A3A9D]">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
             Ready to Transform Your Insurance Operations?
@@ -159,7 +159,7 @@ const AboutPage = () => {
           <p className="text-xl text-white opacity-90 mb-8">
             Join the future of insurance with AI-powered automation
           </p>
-          <button className="bg-white text-[#2D5A3D] px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+          <button className="bg-white text-[#6A5ACD] px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
             Get Started Today
           </button>
         </div>

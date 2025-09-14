@@ -38,7 +38,7 @@ const TestimonialsSection = () => {
             <div key={index} className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
               {/* Metric */}
               <div className="mb-6">
-                <div className="text-4xl font-bold text-[#2D5A3D] mb-2">
+                <div className="text-4xl font-bold text-[#6A5ACD] mb-2">
                   {testimonial.metric}
                 </div>
                 <div className="text-lg text-gray-600 font-medium">
@@ -48,7 +48,7 @@ const TestimonialsSection = () => {
 
               {/* Quote */}
               <div className="mb-6">
-                <Quote className="w-8 h-8 text-[#2D5A3D] mb-4" />
+                <Quote className="w-8 h-8 text-[#6A5ACD] mb-4" />
                 <blockquote className="text-lg text-gray-700 italic leading-relaxed">
                   "{testimonial.quote}"
                 </blockquote>

@@ -28,7 +28,7 @@ const SecuritySection = () => {
       <div className="max-w-7xl mx-auto">
         {/* Section Label */}
         <div className="text-center mb-8">
-          <span className="inline-block bg-[#2D5A3D] text-white px-4 py-2 rounded-full text-sm font-medium">
+          <span className="inline-block bg-[#6A5ACD] text-white px-4 py-2 rounded-full text-sm font-medium">
             Security
           </span>
         </div>
@@ -56,7 +56,7 @@ const SecuritySection = () => {
             <div className="space-y-6">
               {securityFeatures.map((feature, index) => (
                 <div key={index} className="flex items-start space-x-4">
-                  <div className="text-[#2D5A3D] mt-0.5 flex-shrink-0">
+                  <div className="text-[#6A5ACD] mt-0.5 flex-shrink-0">
                     {feature.icon}
                   </div>
                   <span className="text-gray-700 font-medium leading-relaxed">
@@ -70,7 +70,7 @@ const SecuritySection = () => {
           {/* Right Column - Security Visualization */}
           <div className="flex flex-col items-center">
             {/* Main Security Card */}
-            <div className="bg-gradient-to-br from-[#2D5A3D] to-[#1E3A28] rounded-2xl p-8 w-full max-w-lg relative overflow-hidden">
+            <div className="bg-gradient-to-br from-[#6A5ACD] to-[#4A3A9D] rounded-2xl p-8 w-full max-w-lg relative overflow-hidden">
               {/* Background Pattern */}
               <div className="absolute inset-0 opacity-5">
                 <div className="grid grid-cols-12 gap-0.5 h-full">

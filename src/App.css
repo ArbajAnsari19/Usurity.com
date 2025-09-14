@@ -75,10 +75,10 @@ button, input, .card {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #2D5A3D;
+    background: #6A5ACD;
     border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #234A30;
+    background: #5A4ABD;
 }

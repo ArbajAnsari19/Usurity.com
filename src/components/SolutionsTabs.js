@@ -17,15 +17,15 @@ const SolutionsTabs = () => {
       <div className="flex flex-col lg:flex-row gap-8 p-8">
         {/* Left Panel */}
         <div className="lg:w-1/2 flex flex-col justify-center">
-          <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-[#2D5A3D] mb-4 w-fit">
+          <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-[#6A5ACD] mb-4 w-fit">
             Case Study
           </span>
-          <h2 className="text-4xl font-bold text-[#2D5A3D] mb-6 font-serif">Claims Management</h2>
+          <h2 className="text-4xl font-bold text-[#6A5ACD] mb-6 font-serif">Claims Management</h2>
           <p className="text-gray-700 text-lg mb-8">
             A specialty insurer with over three consecutive years of &gt;20% premium growth and an expansion
             from five to ten insurance programs faced a critical operational bottleneck - claims workflows.
           </p>
-          <button className="bg-[#2D5A3D] hover:bg-[#234A30] text-white px-8 py-3 rounded-lg font-medium transition-all duration-200 hover:shadow-lg self-start">
+          <button className="bg-[#6A5ACD] hover:bg-[#5A4ABD] text-white px-8 py-3 rounded-lg font-medium transition-all duration-200 hover:shadow-lg self-start">
             Learn More
           </button>
         </div>
@@ -68,14 +68,14 @@ const SolutionsTabs = () => {
       <div className="flex flex-col lg:flex-row gap-8 p-8">
         {/* Left Panel */}
         <div className="lg:w-1/2 flex flex-col justify-center">
-          <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-[#2D5A3D] mb-4 w-fit">
+          <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-[#6A5ACD] mb-4 w-fit">
             Case Study
           </span>
-          <h2 className="text-4xl font-bold text-[#2D5A3D] mb-6 font-serif">Risk Assessment</h2>
+          <h2 className="text-4xl font-bold text-[#6A5ACD] mb-6 font-serif">Risk Assessment</h2>
           <p className="text-gray-700 text-lg mb-8">
             One of the largest Managing General Agencies (MGA) in the U.S., with over $1.5 billion in premiums across 20+ insurance programs and serving more than 1 million policyholders, sought to streamline its underwriting process.
           </p>
-          <button className="bg-[#2D5A3D] hover:bg-[#234A30] text-white px-8 py-3 rounded-lg font-medium transition-all duration-200 hover:shadow-lg self-start">
+          <button className="bg-[#6A5ACD] hover:bg-[#5A4ABD] text-white px-8 py-3 rounded-lg font-medium transition-all duration-200 hover:shadow-lg self-start">
             Learn More
           </button>
         </div>
@@ -129,14 +129,14 @@ const SolutionsTabs = () => {
       <div className="flex flex-col lg:flex-row gap-8 p-8">
         {/* Left Panel */}
         <div className="lg:w-1/2 flex flex-col justify-center">
-          <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-[#2D5A3D] mb-4 w-fit">
+          <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-[#6A5ACD] mb-4 w-fit">
             Case Study
           </span>
-          <h2 className="text-4xl font-bold text-[#2D5A3D] mb-6 font-serif">Compliance Review</h2>
+          <h2 className="text-4xl font-bold text-[#6A5ACD] mb-6 font-serif">Compliance Review</h2>
           <p className="text-gray-700 text-lg mb-8">
             A leading insurance company, responsible for supporting over 100 MGAs, faced a time-intensive and inefficient underwriting audit process. For each MGA audit, it would audit the underwriting files for about 20 portfolio companies, consuming 200 hours per MGA audit.
           </p>
-          <button className="bg-[#2D5A3D] hover:bg-[#234A30] text-white px-8 py-3 rounded-lg font-medium transition-all duration-200 hover:shadow-lg self-start">
+          <button className="bg-[#6A5ACD] hover:bg-[#5A4ABD] text-white px-8 py-3 rounded-lg font-medium transition-all duration-200 hover:shadow-lg self-start">
             Learn More
           </button>
         </div>
@@ -148,7 +148,7 @@ const SolutionsTabs = () => {
               <input 
                 type="text" 
                 placeholder="Ask anything..." 
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2D5A3D] focus:border-transparent"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#6A5ACD] focus:border-transparent"
               />
             </div>
 
@@ -191,14 +191,14 @@ const SolutionsTabs = () => {
       <div className="flex flex-col lg:flex-row gap-8 p-8">
         {/* Left Panel */}
         <div className="lg:w-1/2 flex flex-col justify-center">
-          <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-[#2D5A3D] mb-4 w-fit">
+          <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-[#6A5ACD] mb-4 w-fit">
             Case Study
           </span>
-          <h2 className="text-4xl font-bold text-[#2D5A3D] mb-6 font-serif">Policy Analysis</h2>
+          <h2 className="text-4xl font-bold text-[#6A5ACD] mb-6 font-serif">Policy Analysis</h2>
           <p className="text-gray-700 text-lg mb-8">
             A mid-sized insurer with over 1,500 employees and $1 billion in annual revenue partnered with FurtherAI to streamline their policy comparison processes.
           </p>
-          <button className="bg-[#2D5A3D] hover:bg-[#234A30] text-white px-8 py-3 rounded-lg font-medium transition-all duration-200 hover:shadow-lg self-start">
+          <button className="bg-[#6A5ACD] hover:bg-[#5A4ABD] text-white px-8 py-3 rounded-lg font-medium transition-all duration-200 hover:shadow-lg self-start">
             Learn More
           </button>
         </div>
@@ -252,14 +252,14 @@ const SolutionsTabs = () => {
       <div className="flex flex-col lg:flex-row gap-8 p-8">
         {/* Left Panel */}
         <div className="lg:w-1/2 flex flex-col justify-center">
-          <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-[#2D5A3D] mb-4 w-fit">
+          <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-[#6A5ACD] mb-4 w-fit">
             Case Study
           </span>
-          <h2 className="text-4xl font-bold text-[#2D5A3D] mb-6 font-serif">Data Processing</h2>
+          <h2 className="text-4xl font-bold text-[#6A5ACD] mb-6 font-serif">Data Processing</h2>
           <p className="text-gray-700 text-lg mb-8">
             A top-10 global insurance carrier with over $20B in gross written premium (GWP) and a portfolio spanning 25+ commercial insurance products partnered with FurtherAI to overhaul its Large Property unit's operational backbone.
           </p>
-          <button className="bg-[#2D5A3D] hover:bg-[#234A30] text-white px-8 py-3 rounded-lg font-medium transition-all duration-200 hover:shadow-lg self-start">
+          <button className="bg-[#6A5ACD] hover:bg-[#5A4ABD] text-white px-8 py-3 rounded-lg font-medium transition-all duration-200 hover:shadow-lg self-start">
             Learn More
           </button>
         </div>

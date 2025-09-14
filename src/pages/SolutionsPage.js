@@ -113,19 +113,19 @@ const SolutionsPage = () => {
 
   const benefits = [
     {
-      icon: <CheckCircle className="w-7 h-7 text-[#2D5A3D]" />,
+      icon: <CheckCircle className="w-7 h-7 text-[#6A5ACD]" />,
       text: "Dramatically reduce manual effort and operational costs"
     },
     {
-      icon: <Clock className="w-7 h-7 text-[#2D5A3D]" />,
+      icon: <Clock className="w-7 h-7 text-[#6A5ACD]" />,
       text: "Accelerate submission and claims processing by 10x faster"
     },
     {
-      icon: <Target className="w-7 h-7 text-[#2D5A3D]" />,
+      icon: <Target className="w-7 h-7 text-[#6A5ACD]" />,
       text: "Enhance underwriting precision and ensure full compliance"
     },
     {
-      icon: <Users className="w-7 h-7 text-[#2D5A3D]" />,
+      icon: <Users className="w-7 h-7 text-[#6A5ACD]" />,
       text: "Empower teams to focus on high-value strategic initiatives"
     }
   ];
@@ -172,7 +172,7 @@ const SolutionsPage = () => {
             <h2 className="text-4xl font-bold text-gray-900 mb-6 leading-tight">
               Insurance leaders partnering with Usurity AI have transformed their workflows to:
             </h2>
-            <div className="w-24 h-1 bg-[#2D5A3D] mx-auto"></div>
+            <div className="w-24 h-1 bg-[#6A5ACD] mx-auto"></div>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
@@ -207,11 +207,11 @@ const SolutionsPage = () => {
                 Whether you underwrite, broker, or reinsure
               </h2>
               <div className="flex items-center justify-center space-x-2 mb-4">
-                <div className="w-2 h-2 bg-[#2D5A3D] rounded-full"></div>
-                <div className="w-2 h-2 bg-[#2D5A3D] rounded-full"></div>
-                <div className="w-2 h-2 bg-[#2D5A3D] rounded-full"></div>
+                <div className="w-2 h-2 bg-[#6A5ACD] rounded-full"></div>
+                <div className="w-2 h-2 bg-[#6A5ACD] rounded-full"></div>
+                <div className="w-2 h-2 bg-[#6A5ACD] rounded-full"></div>
               </div>
-              <p className="text-xl text-[#2D5A3D] font-semibold">
+              <p className="text-xl text-[#6A5ACD] font-semibold">
                 Explore how our customers use us
               </p>
             </div>
@@ -229,7 +229,7 @@ const SolutionsPage = () => {
                         </div>
                       </div>
                       <div className="flex-1 min-w-0">
-                        <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-[#2D5A3D] transition-colors">{solution.title}</h3>
+                        <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-[#6A5ACD] transition-colors">{solution.title}</h3>
                         <p className="text-gray-600 leading-relaxed text-base">{solution.description}</p>
                       </div>
                     </div>
@@ -242,7 +242,7 @@ const SolutionsPage = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#2D5A3D] to-[#1E3A28]">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#6A5ACD] to-[#4A3A9D]">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
             Ready to Transform Your Insurance Operations?
@@ -250,7 +250,7 @@ const SolutionsPage = () => {
           <p className="text-xl text-white opacity-90 mb-8">
             Join the future of insurance with AI-powered automation
           </p>
-          <button className="bg-white text-[#2D5A3D] px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+          <button className="bg-white text-[#6A5ACD] px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
             Get Started Today
           </button>
         </div>

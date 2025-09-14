@@ -52,6 +52,18 @@ module.exports = {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
+  			},
+  			'slate-blue': {
+  				'50': '#E8E4FF',
+  				'100': '#D1C7FF',
+  				'200': '#A38FFF',
+  				'300': '#7A6ADD',
+  				'400': '#6A5ACD',
+  				'500': '#5A4ABD',
+  				'600': '#4A3A9D',
+  				'700': '#3A2A7D',
+  				'800': '#2A1A5D',
+  				'900': '#1A0A3D'
   			}
   		},
   		keyframes: {

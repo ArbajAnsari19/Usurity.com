@@ -14,11 +14,11 @@ const FeaturesGrid = () => {
       icon: <Target className="w-8 h-8 text-white" />,
       title: "Optimize Every Workflow", 
       description: "From claims validation to compliance checks, boost compliance accuracy & speed decision-making.",
-      background: "bg-gradient-to-br from-[#2D5A3D] to-[#1E3A28]",
+      background: "bg-gradient-to-br from-[#6A5ACD] to-[#4A3A9D]",
       textColor: "text-white"
     },
     {
-      icon: <CheckCircle2 className="w-8 h-8 text-[#2D5A3D]" />,
+      icon: <CheckCircle2 className="w-8 h-8 text-[#6A5ACD]" />,
       title: "30x Faster Processing",
       description: "Transform your client intake 30X faster so you can focus on risk evaluation.",
       background: "bg-gradient-to-br from-blue-400 to-blue-500", 
