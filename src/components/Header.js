@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import openCalendly from "../lib/calendly";
 import { Link } from "react-router-dom";
 import { Button } from "./ui/button";
 import { Menu, X } from "lucide-react";
@@ -39,6 +40,7 @@ const Header = () => {
             <div className="hidden md:flex items-center">
               <Button 
                 className="!bg-[#6A5ACD] hover:!bg-[#5A4ABD] text-white px-4 lg:px-6 py-2 rounded-lg font-medium transition-all duration-200 hover:shadow-lg text-sm lg:text-base"
+                onClick={() => openCalendly()}
               >
                 Book a demo
               </Button>
@@ -81,7 +83,7 @@ const Header = () => {
                 <div className="pt-2">
                   <Button 
                     className="!bg-[#6A5ACD] hover:!bg-[#5A4ABD] text-white px-6 py-2 rounded-lg font-medium w-full sm:w-fit"
-                    onClick={() => setIsMenuOpen(false)}
+                    onClick={() => { setIsMenuOpen(false); openCalendly(); }}
                   >
                     Book a demo
                   </Button>

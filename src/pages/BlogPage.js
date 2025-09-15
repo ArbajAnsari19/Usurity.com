@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import openCalendly from "../lib/calendly";
 import { 
   BookOpen, 
   Clock, 
@@ -179,7 +180,7 @@ const BlogPage = () => {
             While you wait for our blog, explore our AI-powered solutions
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-[#6A5ACD] transition-colors">
+            <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-[#6A5ACD] transition-colors" onClick={openCalendly}>
               Book a Demo
             </button>
           </div>

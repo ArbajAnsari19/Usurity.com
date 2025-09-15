@@ -1,5 +1,6 @@
 import React from "react";
 import AnimatedButton from "./AnimatedButton";
+import openCalendly from "../lib/calendly";
 import { CheckCircle, Clock, Eye } from "lucide-react";
 
 const FinalCtaSection = () => {
@@ -43,7 +44,7 @@ const FinalCtaSection = () => {
         {/* CTA Button */}
         <div className="flex justify-center">
             <div className="hidden md:flex items-center">
-              <AnimatedButton />
+              <AnimatedButton onClick={openCalendly} />
             </div>
         </div>
         {/* Additional Info List */}

@@ -1,6 +1,7 @@
 import React from "react";
 import ScrollingStrips from "./ScrollingStrips";
 import AnimatedButton from "./AnimatedButton";
+import openCalendly from "../lib/calendly";
 
 const HeroSection = () => {
 
@@ -23,7 +24,7 @@ const HeroSection = () => {
             </div>
             
             <div className="flex justify-center md:justify-start">
-              <AnimatedButton />
+              <AnimatedButton onClick={openCalendly} />
             </div>
           </div>  
 
