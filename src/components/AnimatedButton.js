@@ -2,9 +2,16 @@ import React from 'react';
 import styled from 'styled-components';
 
 const AnimatedButton = ({ onClick }) => {
+  const handleClick = (event) => {
+    // Prevent lingering focus state animations by removing focus immediately
+    try { event.currentTarget?.blur?.(); } catch {}
+    if (typeof onClick === 'function') {
+      onClick();
+    }
+  };
   return (
     <StyledWrapper>
-      <button className="button" onClick={onClick}>
+      <button className="button" onClick={handleClick}>
         <div className="bg" />
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 342 208" height={208} width={342} className="splash">
           <path strokeLinecap="round" strokeWidth={3} d="M54.1054 99.7837C54.1054 99.7837 40.0984 90.7874 26.6893 97.6362C13.2802 104.485 1.5 97.6362 1.5 97.6362" />

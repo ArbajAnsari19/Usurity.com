@@ -61,7 +61,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8">
           <div className="text-center text-sm text-gray-400">
-            © 2024 Usurity AI Inc. All rights reserved.
+            © 2025 Masteryoda Solutions Pvt. Ltd. All rights reserved.
           </div>
         </div>
       </div>

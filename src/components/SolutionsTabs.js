@@ -17,7 +17,7 @@ const SolutionsTabs = () => {
       <div className="flex flex-col lg:flex-row gap-8 p-8">
         {/* Left Panel */}
         <div className="lg:w-1/2 flex flex-col justify-center">
-          <h2 className="text-4xl font-bold text-[#6A5ACD] mb-6 font-serif">Risk Assessment</h2>
+          <h2 className="text-5xl font-bold text-[#6A5ACD] mb-[70px] font-serif">Risk Assessment</h2>
           <p className="text-gray-700 text-lg mb-8">
             An AI assistant simulates an underwriter’s initial review to surface high-risk portfolios and accelerate decisioning across multiple programs. It aggregates property data, renovation history, occupancy, and external records to present a single risk snapshot.
           </p>
@@ -71,10 +71,7 @@ const SolutionsTabs = () => {
         <div className="flex flex-col lg:flex-row gap-8 p-8">
           {/* Left Panel */}
           <div className="lg:w-1/2 flex flex-col justify-center">
-            <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-[#6A5ACD] mb-4 w-fit">
-              Example Use Case
-            </span>
-            <h2 className="text-4xl font-bold text-[#6A5ACD] mb-6 font-serif">Policy Analysis</h2>
+            <h2 className="text-5xl font-bold text-[#6A5ACD] mb-[70px] font-serif">Policy Analysis</h2>
             <p className="text-gray-700 text-lg mb-8">
               The AI reviews policy wordings, endorsements, and bind orders, comparing new submissions with existing program rules to detect conflicts, coverage gaps, or unintended double coverage.
             </p>
@@ -129,10 +126,7 @@ const SolutionsTabs = () => {
         <div className="flex flex-col lg:flex-row gap-8 p-8">
           {/* Left Panel */}
           <div className="lg:w-1/2 flex flex-col justify-center">
-            <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-[#6A5ACD] mb-4 w-fit">
-              Example Use Case
-            </span>
-            <h2 className="text-4xl font-bold text-[#6A5ACD] mb-6 font-serif">Compliance Review</h2>
+            <h2 className="text-5xl font-bold text-[#6A5ACD] mb-[70px] font-serif">Compliance Review</h2>
             <p className="text-gray-700 text-lg mb-8">
               The AI continuously scans submissions and policies for regulatory and internal compliance issues — licensing, sanctions, data-privacy flags, and jurisdictional restrictions — and surfaces items requiring legal or compliance attention.
             </p>
@@ -187,7 +181,7 @@ const SolutionsTabs = () => {
       <div className="flex flex-col lg:flex-row gap-8 p-8">
         {/* Left Panel */}
         <div className="lg:w-1/2 flex flex-col justify-center">
-          <h2 className="text-4xl font-bold text-[#6A5ACD] mb-6 font-serif">Claims Management</h2>
+          <h2 className="text-5xl font-bold text-[#6A5ACD] mb-[70px] font-serif">Claims Management</h2>
           <p className="text-gray-700 text-lg mb-8">
             From FNOL through settlement, the AI triages claims, estimates severity using photos and historical data, and identifies cases for subrogation or fraud investigation, enabling faster, prioritized workflows.
           </p>
@@ -242,7 +236,7 @@ const SolutionsTabs = () => {
       <div className="flex flex-col lg:flex-row gap-8 p-8">
         {/* Left Panel */}
         <div className="lg:w-1/2 flex flex-col justify-center">
-          <h2 className="text-4xl font-bold text-[#6A5ACD] mb-6 font-serif">Data Processing</h2>
+          <h2 className="text-5xl font-bold text-[#6A5ACD] mb-[70px] font-serif">Data Processing</h2>
           <p className="text-gray-700 text-lg mb-8">
             The AI normalizes and extracts structured data from unstructured sources (PDFs, SOVs, loss runs), deduplicates records, and prepares clean datasets for underwriting, pricing, and analytics pipelines.
           </p>

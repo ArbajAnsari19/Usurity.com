@@ -16,11 +16,8 @@ const Header = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-14 sm:h-16">
             {/* Logo */}
-            <Link to="/" className="flex items-center">
-              <div className="bg-[#6A5ACD] text-white w-8 h-8 sm:w-10 sm:h-10 rounded-md flex items-center justify-center font-bold text-sm sm:text-lg">
-                U
-              </div>
-              <span className="ml-2 sm:ml-3 text-lg sm:text-xl font-semibold text-gray-900">Usurity AI</span>
+            <Link to="/" className="flex items-center mt-4 -ml-6">
+            <img src="./usurity1.png" className="w-[100px] h-[100px]" />
             </Link>
 
             {/* Desktop Navigation */}

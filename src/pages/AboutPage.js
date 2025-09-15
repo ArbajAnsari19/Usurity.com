@@ -29,7 +29,28 @@ const AboutPage = () => {
       name: "JM Financial",
       logo: "https://jmfl.com/Content/assets/images/logo.png",
       description: "Financial Services"
-    }
+    },
+    {
+      name: "Swiss Re",
+      logo: "https://www.swissre.com/.resources/swissre-web/webresources/img/logos/SR_Logo_Group.png",
+      description: "Insurance"
+    },
+    {
+      name: "Amazon",
+      logo: "https://assets.aboutamazon.com/2e/d7/ac71f1f344c39f8949f48fc89e71/amazon-logo-squid-ink-smile-orange.png",
+      description: "e-commerce"
+    },
+    {
+      name: "Liberty Mutual Insurance",
+      logo: "https://www.libertymutualgroup.com/themes/custom/zurb_foundation_lmg/LMI_Masterbrand_H_RGB_Blue.svg",
+      description: "Insurance Technology"
+    },
+    {
+      name: "KPMG",
+      logo: "https://imgs.search.brave.com/Wu-sJTaOyCl8Bgsk6rfLjCuNG90JEirHdoeKlkIdU38/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy82/MjM0YjJkMTVjODgx/NmM3YmJjOWQ5YTku/cG5n",
+      description: "Accounting"
+    },
+
   ];
 
   const values = [
