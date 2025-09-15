@@ -4,18 +4,25 @@ import { Quote } from "lucide-react";
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      metric: "2X",
-      metricDescription: "Increase in lead generation",
-      quote: "I really like what FurtherAI is doing in the AI world. Gonna have a big impact in insurance for sure especially in ensuring right risk is underwritten.",
-      author: "President, Commercial Property",
-      company: "MGA with $1.5B in Premiums"
+      metric: "50%",
+      metricDescription: "Potential reduction in manual work per process",
+      quote: "Nearly 50% of manual activities across insurance processes are expected to be eliminated through use of generative AI—automating claim routing, document review, and other repetitive tasks that slow down operations",
+      author: "“Gen AI insurance use cases: A comprehensive approach",
+      company: "McKinsey"
     },
     {
-      metric: "30X",
-      metricDescription: "Faster processing speed",
-      quote: "FurtherAI has transformed how we handle submissions. What used to take hours now happens in minutes with incredible accuracy.",
-      author: "VP of Underwriting",
-      company: "Major Insurance Carrier"
+      metric: "$160B",
+      metricDescription: "Potential fraud savings by 2032",
+      quote: "By implementing AI-driven technologies across the claims life cycle and integrating real-time analysis from multiple modalities, insurers could reduce fraudulent claims and save between $80 billion and $160 billion by 2032",
+      author: "Property & Casualty Insurance Report",
+      company: "Deloitte"
+    },
+    {
+      metric: "60%",
+      metricDescription: "of insurers improved efficiency with AI",
+      quote: "AI is helping insurers drive operational efficiency and reduce costs — 60% of insurance executives reported measurable gains in efficiency after adopting AI solutions.",
+      author: "“World Insurance Report",
+      company: "Capgemini"
     }
   ];
 
@@ -24,16 +31,16 @@ const TestimonialsSection = () => {
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            What Our Customers Say
+          <h2 className="text-2xl lg:text-5xl font-bold text-gray-900 mb-6">
+          Forward-Looking Framing 
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            See how leading insurance companies are transforming their operations with FurtherAI
+          The insurance industry is already being reshaped by AI—here’s what experts report.
           </p>
         </div>
 
         {/* Testimonials Grid */}
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid md:grid-cols-3 gap-12">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
               {/* Metric */}

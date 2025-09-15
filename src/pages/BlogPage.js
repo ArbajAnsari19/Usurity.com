@@ -179,9 +179,6 @@ const BlogPage = () => {
             While you wait for our blog, explore our AI-powered solutions
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-[#6A5ACD] px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-              Explore Solutions
-            </button>
             <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-[#6A5ACD] transition-colors">
               Book a Demo
             </button>

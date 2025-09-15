@@ -8,11 +8,10 @@ const ComparisonSection = () => {
         {/* Section Header */}
         <div className="text-center mb-8 sm:mb-12 lg:mb-16">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 mb-4 sm:mb-6 px-4">
-            Insurance teams are drowning in busy work
+          The future of insurance demands smarter operations
           </h2>
           <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed px-4">
-            Teams are being asked to underwrite more, audit faster, and manage increased claims
-            volume - all while ensuring compliance with everchanging regulations.
+          Manual tasks and outdated processes no longer scale. To compete, insurers must empower teams to underwrite, audit, and process claims with speed, accuracy, and compliance at every step.
           </p>
         </div>
 

@@ -29,13 +29,6 @@ const FinalCtaSection = () => {
       <div className="absolute bottom-0 left-0 w-48 h-48 bg-gradient-to-tr from-orange-400 to-transparent opacity-20 rounded-tr-full"></div>
 
       <div className="max-w-4xl mx-auto text-center relative z-10">
-        {/* Logo */}
-        <div className="mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-white rounded-lg">
-            <span className="text-2xl font-bold text-[#6A5ACD]">F</span>
-          </div>
-        </div>
-
         {/* Main Heading */}
         <h2 className="text-4xl lg:text-6xl font-bold text-white mb-8 leading-tight">
           Ready to Go Further & Transform Your Insurance Ops?
