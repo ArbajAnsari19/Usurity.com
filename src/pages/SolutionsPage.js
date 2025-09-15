@@ -153,7 +153,7 @@ const SolutionsPage = () => {
           {/* Statistics */}
           <div className="flex flex-wrap justify-center gap-4 mb-16">
             <div className="bg-white px-6 py-3 rounded-full shadow-sm border border-gray-200">
-              <span className="text-lg font-semibold text-gray-900">$30B premiums processed</span>
+              <span className="text-lg font-semibold text-gray-900">90% reduction in manual workflows</span>
             </div>
             <div className="bg-white px-6 py-3 rounded-full shadow-sm border border-gray-200">
               <span className="text-lg font-semibold text-gray-900">20+ lines of business</span>
