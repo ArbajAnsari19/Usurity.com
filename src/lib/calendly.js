@@ -1,7 +1,7 @@
 import { PopupWidget } from "react-calendly";
 
 
-const CALENDLY_URL = "https://calendly.com/arbaj-right/30min";
+const CALENDLY_URL = "https://calendly.com/connect-usurity/30min";
 
 export const openCalendly = () => {
   try {
