@@ -18,7 +18,7 @@ const Footer = () => {
           {/* Logo and Company Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center mb-6">
-              <img src="./Usurity1.png" className="w-[50px] h-[40px]" />
+              <img src="./usurity1.png" className="w-[50px] h-[40px]" />
               <span className="text-2xl font-bold text-white">CUNE AI</span>
             </div>
             <p className="text-gray-400 mb-8 leading-relaxed">
