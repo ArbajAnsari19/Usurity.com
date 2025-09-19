@@ -18,7 +18,7 @@ const AboutPage = () => {
     {
       name: "Armilla AI",
       logo: "https://cdn.prod.website-files.com/65e15cf052fdefda5f7d51c3/65e18c0f21c0aa06fe3c43a2_logo.svg",
-      description: "AI Technology"
+      description: "Insurance Technology"
     },
     {
       name: "CoverTree",
@@ -32,26 +32,34 @@ const AboutPage = () => {
     },
     {
       name: "Swiss Re",
-      logo: "https://www.swissre.com/.resources/swissre-web/webresources/img/logos/SR_Logo_Group.png",
+      logo: "https://imgs.search.brave.com/pET-beuV-9t5IVu6lR5Il8EBiZ7oZPheJQZq1BJtTCc/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9icmFu/ZGxvZ29zLm5ldC93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxNi8x/MS9zd2lzc19yZS1s/b2dvX2JyYW5kbG9n/b3MubmV0X3VpYzVu/LTUxMngxMjAucG5n",
       description: "Insurance"
     },
     {
       name: "Amazon",
       logo: "https://assets.aboutamazon.com/2e/d7/ac71f1f344c39f8949f48fc89e71/amazon-logo-squid-ink-smile-orange.png",
-      description: "e-commerce"
+      description: "Technology"
     },
     {
       name: "Liberty Mutual Insurance",
-      logo: "https://www.libertymutualgroup.com/themes/custom/zurb_foundation_lmg/LMI_Masterbrand_H_RGB_Blue.svg",
+      logo: "https://imgs.search.brave.com/9r8YZtE_IW66lOjFDRBtdOIFC_7YrSJ7JvEG749g718/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9wdXJl/cG5nLmNvbS9wdWJs/aWMvdXBsb2Fkcy9s/YXJnZS9wdXJlcG5n/LmNvbS1saWJlcnR5/LW11dHVhbC1pbnN1/cmFuY2UtbG9nb2xv/Z29icmFuZC1sb2dv/aWNvbnNsb2dvcy0y/NTE1MTk5Mzk2OTU0/cHF5dS5wbmc",
       description: "Insurance Technology"
     },
     {
       name: "KPMG",
-      logo: "https://imgs.search.brave.com/Wu-sJTaOyCl8Bgsk6rfLjCuNG90JEirHdoeKlkIdU38/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy82/MjM0YjJkMTVjODgx/NmM3YmJjOWQ5YTku/cG5n",
-      description: "Accounting"
+      logo: "https://imgs.search.brave.com/30JFAPMMknUIo62hekhXxIZ_4CTooq86fu5hZ96CmUA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjIv/MDgvS1BNRy1Mb2dv/LTUwMHgyODEucG5n",
+      description: "Consulting"
     },
 
   ];
+
+  const getLogoHeightClass = (companyName) => {
+    const name = (companyName || "").toLowerCase();
+    if (name.includes("kpmg") || name.includes("liberty mutual")) {
+      return "max-h-16"; // bump height for smaller original assets
+    }
+    return "max-h-12";
+  };
 
   const values = [
     {
@@ -102,15 +110,15 @@ const AboutPage = () => {
 
           <div className="prose prose-lg max-w-none">
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              At Usurity AI, the belief is that just like energy, insurance fundamentally shapes the global economy—its cost and efficiency ripple through every business and household. Usurity AI harnesses artificial intelligence to create smarter, faster, and more cost-effective insurance operations, delivering tangible benefits industry-wide.
+              At CUNE AI, the belief is that just like energy, insurance fundamentally shapes the global economy—its cost and efficiency ripple through every business and household. CUNE AI harnesses artificial intelligence to create smarter, faster, and more cost-effective insurance operations, delivering tangible benefits industry-wide.
             </p>
 
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              Usurity AI brings together seasoned insurance operators and AI experts, united by the goal of unlocking unprecedented efficiencies for commercial insurers. The company is building an advanced AI Insurance Assistant—think ChatGPT, but custom-built for commercial insurance—automating high-touch workflows such as submission processing, policy comparison, compliance checks, and underwriting audits. The result is that insurers, brokers, and underwriters can focus on strategic decisions and high-value relationships, rather than repetitive manual tasks.
+              CUNE AI brings together seasoned insurance operators and AI experts, united by the goal of unlocking unprecedented efficiencies for commercial insurers. The company is building an advanced AI Insurance Assistant—think ChatGPT, but custom-built for commercial insurance—automating high-touch workflows such as submission processing, policy comparison, compliance checks, and underwriting audits. The result is that insurers, brokers, and underwriters can focus on strategic decisions and high-value relationships, rather than repetitive manual tasks.
             </p>
 
             <p className="text-lg text-gray-700 leading-relaxed">
-              By integrating intelligent automation, Usurity AI empowers insurance teams to boost productivity, reduce operating costs, and improve accuracy—placing it at the forefront of the emerging AI insurance technology sector.
+              By integrating intelligent automation, CUNE AI empowers insurance teams to boost productivity, reduce operating costs, and improve accuracy—placing it at the forefront of the emerging AI insurance technology sector.
             </p>
           </div>
         </div>
@@ -154,7 +162,7 @@ const AboutPage = () => {
                     <img 
                       src={company.logo} 
                       alt={`${company.name} logo`}
-                      className="max-h-12 max-w-full object-contain"
+                      className={`${getLogoHeightClass(company.name)} max-w-full object-contain`}
                       onError={(e) => {
                         e.target.style.display = 'none';
                         e.target.nextSibling.style.display = 'block';
@@ -180,7 +188,7 @@ const AboutPage = () => {
           <p className="text-xl text-white opacity-90 mb-8">
             Join the future of insurance with AI-powered automation
           </p>
-          <button className="bg-white text-[#6A5ACD] px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+          <button onClick={() => openCalendly()} className="bg-white text-[#6A5ACD] px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
             Get Started Today
           </button>
         </div>

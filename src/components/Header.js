@@ -16,8 +16,8 @@ const Header = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-14 sm:h-16">
             {/* Logo */}
-            <Link to="/" className="flex items-center mt-4 -ml-6">
-            <img src="./usurity1.png" className="w-[100px] h-[100px]" />
+            <Link to="/" className="flex items-center  -ml-3">
+            <img src="./Usurity1.png" className="w-[50px] h-[40px]" />
             </Link>
 
             {/* Desktop Navigation */}
@@ -28,8 +28,8 @@ const Header = () => {
               <Link to="/solutions" className="text-gray-600 hover:text-gray-900 transition-colors font-medium text-sm lg:text-base">
                 Solutions
               </Link>
-              <Link to="/blog" className="text-gray-600 hover:text-gray-900 transition-colors font-medium text-sm lg:text-base">
-                Blog
+              <Link to="/contact" className="text-gray-600 hover:text-gray-900 transition-colors font-medium text-sm lg:text-base">
+                Contact
               </Link>
             </nav>
 

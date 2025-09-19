@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import openCalendly from "../lib/calendly";
 import { 
   FileText, 
   Shield, 
@@ -34,7 +35,7 @@ const SolutionsPage = () => {
       ),
       iconBg: "bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500",
       title: "Submissions Processing",
-      description: "An MGA partnered with Usurity AI for 30x faster submissions & 200%+ efficiency gains"
+      description: "An MGA with AI agents can do 30x faster submissions & get 200%+ efficiency gains"
     },
     {
       icon: (
@@ -53,7 +54,7 @@ const SolutionsPage = () => {
       ),
       iconBg: "bg-gradient-to-br from-emerald-400 via-green-500 to-teal-600",
       title: "Underwriting Audit",
-      description: "A reinsurer cut audit time 45%, from 200h to 110h per MGA, boosting compliance & decisions."
+      description: "A reinsurer cut audit time 40%, from 200h to 120h per MGA, boosting compliance & decisions."
     },
     {
       icon: (
@@ -69,7 +70,7 @@ const SolutionsPage = () => {
       ),
       iconBg: "bg-gradient-to-br from-orange-400 via-red-500 to-pink-500",
       title: "Policy Comparison & Checks",
-      description: "An insurer used Usurity AI to revamp policy management & saw 400% ROI in months"
+      description: "Insurer using AI systems to revamp policy management & experiencing 400% ROI in months"
     },
     {
       icon: (
@@ -89,7 +90,7 @@ const SolutionsPage = () => {
       ),
       iconBg: "bg-gradient-to-br from-cyan-400 via-teal-500 to-emerald-600",
       title: "Complex Property SOV Intake",
-      description: "A carrier boosted quote speed, achieving 646% ROI with efficiency, accuracy & scalability"
+      description: "A carrier boosted quote speed, achieving 600% ROI with efficiency, accuracy & scalability"
     },
     {
       icon: (
@@ -107,7 +108,7 @@ const SolutionsPage = () => {
       ),
       iconBg: "bg-gradient-to-br from-slate-500 via-gray-600 to-slate-700",
       title: "Claims Processing",
-      description: "A Usurity AI Claim Intake hit 90% automation, $360k savings & 10x faster processing"
+      description: "Automated Claim Intake hit 90% automation, $360k savings & 10x faster processing"
     }
   ];
 
@@ -146,7 +147,7 @@ const SolutionsPage = () => {
               Purpose-built for insurance, trusted by the industry's best.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto">
-              Discover how leading carriers and Managing General Agents (MGAs) accelerate growth and scale faster with Usurity AI's powerful AI-driven workflows. Our AI Assistant automates critical commercial insurance processes—submission processing, policy comparison, underwriting audits—dramatically improving operational efficiency and accuracy.
+              Discover how leading carriers and Managing General Agents (MGAs) accelerate growth and scale faster with CUNE AI's powerful AI-driven workflows. Our AI Assistant automates critical commercial insurance processes—submission processing, policy comparison, underwriting audits—dramatically improving operational efficiency and accuracy.
             </p>
           </div>
 
@@ -170,7 +171,7 @@ const SolutionsPage = () => {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6 leading-tight">
-              Insurance leaders partnering with Usurity AI have transformed their workflows to:
+              Insurance leaders partnering with CUNE AI have transformed their workflows to:
             </h2>
             <div className="w-24 h-1 bg-[#6A5ACD] mx-auto"></div>
           </div>
@@ -191,7 +192,7 @@ const SolutionsPage = () => {
           <div className="text-center">
             <div className="bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl p-8 border border-gray-200">
               <p className="text-xl text-gray-700 leading-relaxed font-medium">
-                With proven results in faster scaling and improved customer satisfaction, Usurity AI is the trusted AI assistant enabling the future of commercial insurance.
+                With proven results in faster scaling and improved customer satisfaction, CUNE AI is the trusted AI assistant enabling the future of commercial insurance.
               </p>
             </div>
           </div>
@@ -250,7 +251,7 @@ const SolutionsPage = () => {
           <p className="text-xl text-white opacity-90 mb-8">
             Join the future of insurance with AI-powered automation
           </p>
-          <button className="bg-white text-[#6A5ACD] px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+          <button onClick={() => openCalendly()} className="bg-white text-[#6A5ACD] px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
             Get Started Today
           </button>
         </div>

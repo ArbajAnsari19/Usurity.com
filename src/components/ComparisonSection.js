@@ -80,20 +80,20 @@ const ComparisonSection = () => {
             </div>
           </div>
 
-          {/* The Usurity AI Way */}
+          {/* The CUNE AI Way */}
           <div className="bg-gradient-to-br from-[#6A5ACD] to-[#4A3A9D] rounded-2xl p-4 sm:p-6 lg:p-8 text-white">
             <div className="text-center mb-6 sm:mb-8">
-              <h3 className="text-xl sm:text-2xl font-bold mb-4">The Usurity AI Way</h3>
+              <h3 className="text-xl sm:text-2xl font-bold mb-4">The CUNE AI Way</h3>
             </div>
             
-            {/* Mock Usurity AI Dashboard */}
+            {/* Mock CUNE AI Dashboard */}
             <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-4 sm:p-6 mb-4 sm:mb-6">
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center space-x-2">
                   <div className="bg-white text-[#6A5ACD] w-5 h-5 sm:w-6 sm:h-6 rounded flex items-center justify-center text-xs font-bold">
                     U
                   </div>
-                  <span className="text-xs sm:text-sm text-white">Usurity AI</span>
+                  <span className="text-xs sm:text-sm text-white">CUNE AI</span>
                 </div>
                 <div className="flex space-x-2">
                   <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
@@ -145,7 +145,7 @@ const ComparisonSection = () => {
               </div>
             </div>
 
-            {/* Usurity AI Benefits */}
+            {/* CUNE AI Benefits */}
             <div className="space-y-3 sm:space-y-4">
               <div className="flex items-start space-x-2 sm:space-x-3">
                 <Zap className="w-4 h-4 sm:w-5 sm:h-5 text-green-400 mt-1 flex-shrink-0" />

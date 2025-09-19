@@ -3,13 +3,11 @@ import { Linkedin, Twitter } from "lucide-react";
 
 const Footer = () => {
   const navigation = [
-    { name: "About Us", href: "#about" },
-    { name: "Solutions", href: "#solutions" },
-    { name: "Security", href: "#security" },
-    { name: "Contact", href: "#contact" },
-    { name: "Blog", href: "#blog" },
-    { name: "Privacy Policy", href: "#privacy" },
-    { name: "Terms of Service", href: "#terms" }
+    { name: "About Us", href: "/about" },
+    { name: "Solutions", href: "/solutions" },
+    { name: "Contact", href: "/contact" },
+    { name: "Privacy Policy", href: "/privacy" },
+    { name: "Terms of Service", href: "/terms" }
   ];
 
   return (
@@ -20,16 +18,14 @@ const Footer = () => {
           {/* Logo and Company Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center mb-6">
-              <div className="bg-black text-white w-10 h-10 rounded-md flex items-center justify-center font-bold text-lg mr-3">
-                U
-              </div>
-              <span className="text-2xl font-bold text-white">Usurity AI</span>
+              <img src="./Usurity1.png" className="w-[50px] h-[40px]" />
+              <span className="text-2xl font-bold text-white">CUNE AI</span>
             </div>
             <p className="text-gray-400 mb-8 leading-relaxed">
               Transforming insurance operations with intelligent automation and AI-powered solutions for MGAs, carriers, and brokers.
             </p>
             
-            {/* Social Links */}
+            {/* Social Links
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin className="w-5 h-5" />
@@ -37,7 +33,7 @@ const Footer = () => {
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
                 <Twitter className="w-5 h-5" />
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Navigation */}
