@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import { CheckCircle, Mail, FileText, X, ChevronDown, ChevronUp, Upload, Search, MapPin, Globe } from 'lucide-react';
 
 const SolutionsTabs = () => {
-  const [activeTab, setActiveTab] = useState('Risk Assessment');
+  const [activeTab, setActiveTab] = useState('Claims Management');
 
   const tabs = [
-    { id: 'Risk Assessment', label: 'Risk Assessment' },
-    { id: 'Policy Analysis', label: 'Policy Analysis' },
-    { id: 'Compliance Review', label: 'Compliance Review' },
     { id: 'Claims Management', label: 'Claims Management' },
     { id: 'Data Processing', label: 'Data Processing' },
+    { id: 'Policy Analysis', label: 'Policy Analysis' },
+    { id: 'Compliance Review', label: 'Compliance Review' },
+    // { id: 'Risk Assessment', label: 'Risk Assessment' }, // temporarily disabled
   ];
 
   const tabContent = {
@@ -122,7 +122,7 @@ const SolutionsTabs = () => {
         </div>
       ),
     
-      'Compliance Review': (
+    'Compliance Review': (
         <div className="flex flex-col lg:flex-row gap-8 p-8">
           {/* Left Panel */}
           <div className="lg:w-1/2 flex flex-col justify-center">
@@ -175,7 +175,7 @@ const SolutionsTabs = () => {
             </div>
           </div>
         </div>
-      ),
+    ),
 
     'Claims Management': (
       <div className="flex flex-col lg:flex-row gap-8 p-8">

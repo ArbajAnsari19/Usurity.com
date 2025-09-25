@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { Building2, Users, Target, Zap, Shield, TrendingUp } from "lucide-react";
+import {  Users, Target, Zap, Shield, TrendingUp } from "lucide-react";
+import openCalendly from "../lib/calendly";
 
 const AboutPage = () => {
   const teamExperience = [

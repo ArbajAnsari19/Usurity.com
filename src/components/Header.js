@@ -18,6 +18,7 @@ const Header = () => {
             {/* Logo */}
             <Link to="/" className="flex items-center  -ml-3">
             <img src="./usurity1.png" className="w-[50px] h-[40px]" />
+            <h1 className="text-2xl font-bold text-[#695acdea]">CUNE AI</h1>
             </Link>
 
             {/* Desktop Navigation */}

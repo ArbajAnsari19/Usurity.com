@@ -69,7 +69,7 @@ ${formData.message}
     {
       icon: <Phone className="w-6 h-6 text-[#6A5ACD]" />,
       title: "Phone",
-      value: "617-429-4395",
+      value: "+1 617-429-4395",
       description: "Mon-Fri from 9am to 6pm"
     },
     {

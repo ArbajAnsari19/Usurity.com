@@ -17,12 +17,12 @@ const HeroSection = () => {
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                 Trusted AI for 
                 <br />
-                <span className="text-[#6A5ACD]">Insurance Experts</span>
+                <span className="text-[#6A5ACD] italic">Insurance Experts</span>
               </h1>
               
               {/* Responsive text with proper wrapping and sizing */}
               <div className="w-full text-sm xs:text-base sm:text-lg md:text-xl lg:text-xl text-gray-600 leading-relaxed break-words hyphens-auto">
-                <span className="font-bold text-[#6A5ACD] italic">CUNE AI</span> 
+                <span className="font-bold text-[#6A5ACD] italic">CUNE AI </span> 
                 delivers domain-specific artificial intelligence solutions tailored for Managing General Agents (MGAs), carriers, and brokers. 
                 Our AI-driven platform automates critical insurance workflows including underwriting, claims management, and regulatory compliance.
               </div>
