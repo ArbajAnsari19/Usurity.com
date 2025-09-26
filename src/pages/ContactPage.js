@@ -32,8 +32,8 @@ const ContactPage = () => {
     try {
       // Determine the API URL based on environment
       const apiUrl = process.env.NODE_ENV === 'production' 
-        ? 'https://cune-backend.vercel.app/api/contact'
-        : 'http://localhost:8000/api/contact';
+        ? 'https://backend.getcune.com/api/contact'
+        : 'http://localhost:5000/api/contact';
 
       const response = await fetch(apiUrl, {
         method: 'POST',
