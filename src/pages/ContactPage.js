@@ -30,31 +30,32 @@ const ContactPage = () => {
     setIsSubmitting(true);
 
     try {
-      // Create mailto link with form data
-      const subject = encodeURIComponent(formData.subject || "Contact Form Submission");
-      const body = encodeURIComponent(`
-Name: ${formData.name}
-Email: ${formData.email}
-Subject: ${formData.subject}
+      // Determine the API URL based on environment
+      const apiUrl = process.env.NODE_ENV === 'production' 
+        ? 'https://cune-backend.vercel.app/api/contact'
+        : 'http://localhost:8000/api/contact';
 
-Message:
-${formData.message}
-      `);
-      
-      const mailtoLink = `mailto:hello@getcune.com?subject=${subject}&body=${body}`;
-      
-      // Open email client
-      window.location.href = mailtoLink;
-      
-      // Simulate successful submission
-      setTimeout(() => {
+      const response = await fetch(apiUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+
+      if (response.ok && result.success) {
         setIsSubmitted(true);
-        setIsSubmitting(false);
         setFormData({ name: "", email: "", subject: "", message: "" });
-      }, 1000);
+      } else {
+        throw new Error(result.message || 'Failed to submit form');
+      }
       
     } catch (error) {
       console.error("Error submitting form:", error);
+      alert('Failed to submit contact form. Please try again or contact us directly at hello@getcune.com');
+    } finally {
       setIsSubmitting(false);
     }
   };
