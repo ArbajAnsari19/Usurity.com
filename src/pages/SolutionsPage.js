@@ -33,7 +33,7 @@ const SolutionsPage = () => {
           <div className="absolute bottom-0.5 left-4 w-1 h-1 bg-white transform rotate-45"></div>
         </div>
       ),
-      iconBg: "bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500",
+      iconBg: "bg-gradient-to-br from-[rgba(188,124,228,0.85)] via-[rgba(188,124,228,0.85)] to-[rgba(188,124,228,0.85)]",
       title: "Submissions Processing",
       description: "An MGA with AI agents can do 30x faster submissions & get 200%+ efficiency gains"
     },
@@ -114,19 +114,19 @@ const SolutionsPage = () => {
 
   const benefits = [
     {
-      icon: <CheckCircle className="w-7 h-7 text-[#6A5ACD]" />,
+      icon: <CheckCircle className="w-7 h-7 text-[rgba(188,124,228,0.85)]" />,
       text: "Dramatically reduce manual effort and operational costs"
     },
     {
-      icon: <Clock className="w-7 h-7 text-[#6A5ACD]" />,
+      icon: <Clock className="w-7 h-7 text-[rgba(188,124,228,0.85)]" />,
       text: "Accelerate submission and claims processing by 10x faster"
     },
     {
-      icon: <Target className="w-7 h-7 text-[#6A5ACD]" />,
+      icon: <Target className="w-7 h-7 text-[rgba(188,124,228,0.85)]" />,
       text: "Enhance underwriting precision and ensure full compliance"
     },
     {
-      icon: <Users className="w-7 h-7 text-[#6A5ACD]" />,
+      icon: <Users className="w-7 h-7 text-[rgba(188,124,228,0.85)]" />,
       text: "Empower teams to focus on high-value strategic initiatives"
     }
   ];
@@ -173,7 +173,7 @@ const SolutionsPage = () => {
             <h2 className="text-4xl font-bold text-gray-900 mb-6 leading-tight">
               Insurance leaders partnering with CUNE AI have transformed their workflows to:
             </h2>
-            <div className="w-24 h-1 bg-[#6A5ACD] mx-auto"></div>
+            <div className="w-24 h-1 bg-[rgba(188,124,228,0.85)] mx-auto"></div>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
@@ -208,11 +208,11 @@ const SolutionsPage = () => {
                 Whether you underwrite, broker, or reinsure
               </h2>
               <div className="flex items-center justify-center space-x-2 mb-4">
-                <div className="w-2 h-2 bg-[#6A5ACD] rounded-full"></div>
-                <div className="w-2 h-2 bg-[#6A5ACD] rounded-full"></div>
-                <div className="w-2 h-2 bg-[#6A5ACD] rounded-full"></div>
+                <div className="w-2 h-2 bg-[rgba(188,124,228,0.85)] rounded-full"></div>
+                <div className="w-2 h-2 bg-[rgba(188,124,228,0.85)] rounded-full"></div>
+                <div className="w-2 h-2 bg-[rgba(188,124,228,0.85)] rounded-full"></div>
               </div>
-              <p className="text-xl text-[#6A5ACD] font-semibold">
+              <p className="text-xl text-[rgba(188,124,228,0.85)] font-semibold">
                 Explore how our customers use us
               </p>
             </div>
@@ -230,7 +230,7 @@ const SolutionsPage = () => {
                         </div>
                       </div>
                       <div className="flex-1 min-w-0">
-                        <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-[#6A5ACD] transition-colors">{solution.title}</h3>
+                        <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-[rgba(188,124,228,0.85)] transition-colors">{solution.title}</h3>
                         <p className="text-gray-600 leading-relaxed text-base">{solution.description}</p>
                       </div>
                     </div>
@@ -243,7 +243,7 @@ const SolutionsPage = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#6A5ACD] to-[#4A3A9D]">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[rgba(188,124,228,0.85)] to-[rgba(188,124,228,0.5)]">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
             Ready to Transform Your Insurance Operations?
@@ -251,7 +251,7 @@ const SolutionsPage = () => {
           <p className="text-xl text-white opacity-90 mb-8">
             Join the future of insurance with AI-powered automation
           </p>
-          <button onClick={() => openCalendly()} className="bg-white text-[#6A5ACD] px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+          <button onClick={() => openCalendly()} className="bg-white text-[rgba(188,124,228,0.85)] px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
             Get Started Today
           </button>
         </div>

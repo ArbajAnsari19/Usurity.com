@@ -5,7 +5,7 @@ import { CheckCircle, Clock, Eye } from "lucide-react";
 
 const FinalCtaSection = () => {
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#6A5ACD] to-[#4A3A9D] relative overflow-hidden">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[rgba(188,124,228,0.85)] to-[rgba(188,124,228,0.5)] relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0">
@@ -26,7 +26,7 @@ const FinalCtaSection = () => {
       </div>
 
       {/* Geometric Accent */}
-      <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-bl from-blue-400 to-transparent opacity-20 rounded-bl-full"></div>
+      <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-bl from-[rgba(188,124,228,0.85)] to-transparent opacity-20 rounded-bl-full"></div>
       <div className="absolute bottom-0 left-0 w-48 h-48 bg-gradient-to-tr from-orange-400 to-transparent opacity-20 rounded-tr-full"></div>
 
       <div className="max-w-4xl mx-auto text-center relative z-10">
@@ -54,7 +54,7 @@ const FinalCtaSection = () => {
             <span>No commitment required</span>
           </div>
           <div className="flex items-center space-x-2 text-sm text-white opacity-80">
-            <Clock className="w-4 h-4 text-blue-300" />
+            <Clock className="w-4 h-4 text-[rgba(188,124,228,0.85)]" />
             <span>15-minute demo</span>
           </div>
           <div className="flex items-center space-x-2 text-sm text-white opacity-80">

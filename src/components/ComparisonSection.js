@@ -81,97 +81,98 @@ const ComparisonSection = () => {
           </div>
 
           {/* The CUNE AI Way */}
-          <div className="bg-gradient-to-br from-[#6A5ACD] to-[#4A3A9D] rounded-2xl p-4 sm:p-6 lg:p-8 text-white">
-            <div className="text-center mb-6 sm:mb-8">
-              <h3 className="text-xl sm:text-2xl font-bold mb-4">The CUNE AI Way</h3>
-            </div>
-            
-            {/* Mock CUNE AI Dashboard */}
-            <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-4 sm:p-6 mb-4 sm:mb-6">
-              <div className="flex items-center justify-between mb-4">
-                <div className="flex items-center space-x-2">
-                  <div className="bg-white text-[#6A5ACD] w-5 h-5 sm:w-6 sm:h-6 rounded flex items-center justify-center text-xs font-bold">
-                    U
-                  </div>
-                  <span className="text-xs sm:text-sm text-white">CUNE AI</span>
-                </div>
-                <div className="flex space-x-2">
-                  <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                  <span className="text-xs text-white opacity-80">AI Assistant</span>
-                </div>
-              </div>
-              
-              {/* Dashboard Items */}
-              <div className="space-y-2 sm:space-y-3">
-                <div className="flex items-center justify-between bg-white bg-opacity-10 rounded-lg p-2 sm:p-3">
-                  <div className="flex items-center space-x-2 min-w-0">
-                    <CheckCircle className="w-3 h-3 sm:w-4 sm:h-4 text-green-400 flex-shrink-0" />
-                    <span className="text-xs sm:text-sm text-white truncate">Property Submissions</span>
-                  </div>
-                  <span className="text-xs text-green-400 flex-shrink-0">✓ Processed</span>
-                </div>
-                
-                <div className="flex items-center justify-between bg-white bg-opacity-10 rounded-lg p-2 sm:p-3">
-                  <div className="flex items-center space-x-2 min-w-0">
-                    <CheckCircle className="w-3 h-3 sm:w-4 sm:h-4 text-green-400 flex-shrink-0" />
-                    <span className="text-xs sm:text-sm text-white truncate">Policy Comparison</span>
-                  </div>
-                  <span className="text-xs text-green-400 flex-shrink-0">✓ Completed</span>
-                </div>
-                
-                <div className="flex items-center justify-between bg-white bg-opacity-10 rounded-lg p-2 sm:p-3">
-                  <div className="flex items-center space-x-2 min-w-0">
-                    <Zap className="w-3 h-3 sm:w-4 sm:h-4 text-yellow-400 flex-shrink-0" />
-                    <span className="text-xs sm:text-sm text-white truncate">Claims Intake</span>
-                  </div>
-                  <span className="text-xs text-yellow-400 flex-shrink-0">⚡ Processing</span>
-                </div>
-                
-                <div className="flex items-center justify-between bg-white bg-opacity-10 rounded-lg p-2 sm:p-3">
-                  <div className="flex items-center space-x-2 min-w-0">
-                    <CheckCircle className="w-3 h-3 sm:w-4 sm:h-4 text-green-400 flex-shrink-0" />
-                    <span className="text-xs sm:text-sm text-white truncate">Underwriting Audit</span>
-                  </div>
-                  <span className="text-xs text-green-400 flex-shrink-0">✓ Validated</span>
-                </div>
-                
-                <div className="flex items-center justify-between bg-white bg-opacity-10 rounded-lg p-2 sm:p-3">
-                  <div className="flex items-center space-x-2 min-w-0">
-                    <CheckCircle className="w-3 h-3 sm:w-4 sm:h-4 text-green-400 flex-shrink-0" />
-                    <span className="text-xs sm:text-sm text-white truncate">Auto Submissions</span>
-                  </div>
-                  <span className="text-xs text-green-400 flex-shrink-0">✓ Ready</span>
-                </div>
-              </div>
-            </div>
+          <div className="bg-gradient-to-br from-[rgba(188,124,228,0.35)] to-[rgba(188,124,228,0.5)] rounded-2xl p-4 sm:p-6 lg:p-8 text-white">
+  <div className="text-center mb-6 sm:mb-8">
+    <h3 className="text-xl sm:text-2xl font-bold mb-4 text-black bg-white rounded-lg p-2 w-fit mx-auto">The CUNE AI Way</h3>
+  </div>
+  
+  {/* Mock CUNE AI Dashboard - Now with solid background for better contrast */}
+  <div className="bg-white/90 backdrop-blur-sm rounded-lg p-4 sm:p-6 mb-4 sm:mb-6 text-gray-800">
+    <div className="flex items-center justify-between mb-4">
+      <img src="/Log02.png" alt="CUNE AI" className="w-40 h-10 bg-[rgba(188,124,228,0.45)] rounded-lg p-1" />
+      <div className="flex space-x-2">
+        <div className="w-2 h-2 bg-lime-500 rounded-full animate-pulse"></div>
+        <span className="text-xs text-gray-700">AI Assistant</span>
+      </div>
+    </div>
+    
+    {/* Dashboard Items */}
+    <div className="space-y-2 sm:space-y-3">
+      {/* Item 1: Increased background opacity for better separation. Changed green to lime-500 */}
+      <div className="flex items-center justify-between bg-black/5 rounded-lg p-2 sm:p-3">
+        <div className="flex items-center space-x-2 min-w-0">
+          <CheckCircle className="w-3 h-3 sm:w-4 sm:h-4 text-lime-500 flex-shrink-0" />
+          <span className="text-xs sm:text-sm truncate">Property Submissions</span>
+        </div>
+        <span className="text-xs text-lime-500 flex-shrink-0">✓ Processed</span>
+      </div>
+      
+      {/* Item 2 */}
+      <div className="flex items-center justify-between bg-black/5 rounded-lg p-2 sm:p-3">
+        <div className="flex items-center space-x-2 min-w-0">
+          <CheckCircle className="w-3 h-3 sm:w-4 sm:h-4 text-lime-500 flex-shrink-0" />
+          <span className="text-xs sm:text-sm truncate">Policy Comparison</span>
+        </div>
+        <span className="text-xs text-lime-500 flex-shrink-0">✓ Completed</span>
+      </div>
+      
+      {/* Item 3: Changed yellow to yellow-500 for better visibility */}
+      <div className="flex items-center justify-between bg-black/5 rounded-lg p-2 sm:p-3">
+        <div className="flex items-center space-x-2 min-w-0">
+          <Zap className="w-3 h-3 sm:w-4 sm:h-4 text-yellow-500 flex-shrink-0" />
+          <span className="text-xs sm:text-sm truncate">Claims Intake</span>
+        </div>
+        <span className="text-xs text-yellow-500 flex-shrink-0">⚡ Processing</span>
+      </div>
+      
+      {/* Item 4 */}
+      <div className="flex items-center justify-between bg-black/5 rounded-lg p-2 sm:p-3">
+        <div className="flex items-center space-x-2 min-w-0">
+          <CheckCircle className="w-3 h-3 sm:w-4 sm:h-4 text-lime-500 flex-shrink-0" />
+          <span className="text-xs sm:text-sm truncate">Underwriting Audit</span>
+        </div>
+        <span className="text-xs text-lime-500 flex-shrink-0">✓ Validated</span>
+      </div>
+      
+      {/* Item 5 */}
+      <div className="flex items-center justify-between bg-black/5 rounded-lg p-2 sm:p-3">
+        <div className="flex items-center space-x-2 min-w-0">
+          <CheckCircle className="w-3 h-3 sm:w-4 sm:h-4 text-lime-500 flex-shrink-0" />
+          <span className="text-xs sm:text-sm truncate">Auto Submissions</span>
+        </div>
+        <span className="text-xs text-lime-500 flex-shrink-0">✓ Ready</span>
+      </div>
+    </div>
+  </div>
 
-            {/* CUNE AI Benefits */}
-            <div className="space-y-3 sm:space-y-4">
-              <div className="flex items-start space-x-2 sm:space-x-3">
-                <Zap className="w-4 h-4 sm:w-5 sm:h-5 text-green-400 mt-1 flex-shrink-0" />
-                <div>
-                  <p className="font-medium text-white text-sm sm:text-base">30x Faster Processing</p>
-                  <p className="text-xs sm:text-sm text-white opacity-80">AI automates data extraction and validation</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start space-x-2 sm:space-x-3">
-                <Shield className="w-4 h-4 sm:w-5 sm:h-5 text-green-400 mt-1 flex-shrink-0" />
-                <div>
-                  <p className="font-medium text-white text-sm sm:text-base">95% Accuracy</p>
-                  <p className="text-xs sm:text-sm text-white opacity-80">Machine learning reduces errors significantly</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start space-x-2 sm:space-x-3">
-                <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-green-400 mt-1 flex-shrink-0" />
-                <div>
-                  <p className="font-medium text-white text-sm sm:text-base">400% ROI</p>
-                  <p className="text-xs sm:text-sm text-white opacity-80">Proven returns within months of implementation</p>
-                </div>
-              </div>
-            </div>
-          </div>
+  {/* CUNE AI Benefits - Text changed to white for contrast on the dark background */}
+  <div className="space-y-3 sm:space-y-4">
+    <div className="flex items-start space-x-2 sm:space-x-3 text-black bg-white rounded-lg p-2">
+      {/* Changed green to lime-300 for better visibility on the darker purple background */}
+      <Zap className="w-4 h-4 sm:w-5 sm:h-5 text-lime-300 mt-1 flex-shrink-0" />
+      <div>
+      <p className="font-medium text-sm sm:text-base">30x Faster Processing</p>
+      <p className="text-xs sm:text-sm text-black">AI automates data extraction and validation</p>
+      </div>
+    </div>
+    
+    <div className="flex items-start space-x-2 sm:space-x-3 text-black bg-white rounded-lg p-2">
+      <Shield className="w-4 h-4 sm:w-5 sm:h-5 text-lime-300 mt-1 flex-shrink-0" />
+      <div>
+      <p className="font-medium text-sm sm:text-base">95% Accuracy</p>
+      <p className="text-xs sm:text-sm text-black">Machine learning reduces errors significantly</p>
+      </div>
+    </div>
+    
+    {/* <div className="flex items-start space-x-2 sm:space-x-3 text-black bg-white rounded-lg p-2">
+      <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-lime-300 mt-1 flex-shrink-0" />
+      <div>
+      <p className="font-medium text-sm sm:text-base">400% ROI</p>
+      <p className="text-xs sm:text-sm text-black">Proven returns within months of implementation</p>
+      </div>
+    </div> */}
+  </div>
+</div>
         </div>
       </div>
     </section>

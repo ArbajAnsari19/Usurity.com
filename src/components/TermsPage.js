@@ -54,7 +54,7 @@ const TermsPage = () => {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-gray-50 p-6 rounded-lg">
                 <div className="flex items-center mb-4">
-                  <Users className="w-6 h-6 text-[#6A5ACD] mr-3" />
+                  <Users className="w-6 h-6 text-[rgba(188,124,228,0.35)] mr-3" />
                   <h3 className="text-xl font-semibold text-gray-900">Eligibility</h3>
                 </div>
                 <ul className="list-disc pl-5 space-y-2 text-gray-700">
@@ -65,7 +65,7 @@ const TermsPage = () => {
 
               <div className="bg-gray-50 p-6 rounded-lg">
                 <div className="flex items-center mb-4">
-                  <Shield className="w-6 h-6 text-[#6A5ACD] mr-3" />
+                  <Shield className="w-6 h-6 text-[rgba(188,124,228,0.35)] mr-3" />
                   <h3 className="text-xl font-semibold text-gray-900">Accounts</h3>
                 </div>
                 <ul className="list-disc pl-5 space-y-2 text-gray-700">
@@ -119,7 +119,7 @@ const TermsPage = () => {
             <h2 className="text-3xl font-bold text-gray-900 mb-6">AI Features and Outputs</h2>
             <div className="bg-gray-50 p-6 rounded-lg">
               <div className="flex items-center mb-4">
-                <Cpu className="w-6 h-6 text-[#6A5ACD] mr-3" />
+                <Cpu className="w-6 h-6 text-[rgba(188,124,228,0.35)] mr-3" />
                 <h3 className="text-xl font-semibold text-gray-900">Important Notes</h3>
               </div>
               <p className="text-gray-700 mb-2">Outputs may be probabilistic and can contain errors. Human oversight is required.</p>
@@ -140,7 +140,7 @@ const TermsPage = () => {
           <div>
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Intellectual Property</h2>
             <div className="flex items-start bg-gray-50 p-6 rounded-lg">
-              <Copyright className="w-8 h-8 text-[#6A5ACD] mr-4 mt-1" />
+              <Copyright className="w-8 h-8 text-[rgba(188,124,228,0.35)] mr-4 mt-1" />
               <div>
                 <p className="text-gray-700 mb-2">
                   The Services, documentation, and all related IP are owned by CUNE and its licensors. Except as expressly granted, no rights are granted.
@@ -213,7 +213,7 @@ const TermsPage = () => {
           <div>
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Indemnification</h2>
             <div className="flex items-start bg-gray-50 p-6 rounded-lg">
-              <Handshake className="w-8 h-8 text-[#6A5ACD] mr-4 mt-1" />
+              <Handshake className="w-8 h-8 text-[rgba(188,124,228,0.35)] mr-4 mt-1" />
               <p className="text-gray-700">
                 You will defend, indemnify, and hold harmless CUNE and its affiliates against claims, losses, and expenses from your Content, your use of the Services, or your violation of law or these Terms.
               </p>
@@ -240,7 +240,7 @@ const TermsPage = () => {
           <div>
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Governing Law and Dispute Resolution</h2>
             <div className="flex items-start bg-gray-50 p-6 rounded-lg">
-              <Globe className="w-8 h-8 text-[#6A5ACD] mr-4 mt-1" />
+              <Globe className="w-8 h-8 text-[rgba(188,124,228,0.35)] mr-4 mt-1" />
               <div>
                 <p className="text-gray-700 mb-2">These Terms are governed by the laws of India.</p>
                 <p className="text-gray-700">Courts in Bengaluru, Karnataka, India have exclusive jurisdiction. Both parties will attempt good-faith discussions for 30 days before filing suit.</p>
@@ -257,7 +257,7 @@ const TermsPage = () => {
             <div className="bg-gray-50 p-6 rounded-lg">
               <p><strong>Email:</strong> hello@getcune.com</p>
               <p><strong>Address:</strong> Masteryoda Solutions Pvt. Ltd., Mantri Commercio Tower-A, Marathahalli - Sarjapur Outer Ring Rd, Kariyammana Agrahara, Bellandur, Bengaluru, Karnataka 560103</p>
-              <p><strong>Website:</strong> <a href="https://getcune.com" className="text-[#6A5ACD] font-medium">https://getcune.com</a></p>
+              <p><strong>Website:</strong> <a href="https://getcune.com" className="text-[rgba(188,124,228,0.35)] font-medium">https://getcune.com</a></p>
             </div>
           </div>
 

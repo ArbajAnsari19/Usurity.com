@@ -18,8 +18,7 @@ const Footer = () => {
           {/* Logo and Company Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center mb-6">
-              <img src="./usurity1.png" className="w-[50px] h-[40px]" />
-              <span className="text-2xl font-bold text-white">CUNE AI</span>
+              <img src="/Log02.png" alt="CUNE AI" className="w-40 h-10 bg-[rgba(188,124,228,0.45)] rounded-lg p-1" />
             </div>
             <p className="text-gray-400 mb-8 leading-relaxed">
               Transforming insurance operations with intelligent automation and AI-powered solutions for MGAs, carriers, and brokers.

@@ -4,12 +4,12 @@ import { Button } from "./ui/button";
 const TrustedBySection = () => {
   // Mock company logos - using placeholder rectangles with company initials
   const companies = [
-    { name: "Liberty Mutual", initial: "LM", color: "bg-blue-600" },
+    { name: "Liberty Mutual", initial: "LM", color: "bg-[rgba(188,124,228,0.35)]" },
     { name: "AIG", initial: "AIG", color: "bg-red-600" },
-    { name: "Chubb", initial: "CHB", color: "bg-purple-600" },
+    { name: "Chubb", initial: "CHB", color: "bg-[rgba(188,124,228,0.35)]" },
     { name: "Travelers", initial: "TRV", color: "bg-green-600" },
     { name: "Zurich", initial: "ZUR", color: "bg-orange-600" },
-    { name: "Hartford", initial: "HTF", color: "bg-indigo-600" }
+    { name: "Hartford", initial: "HTF", color: "bg-[rgba(188,124,228,0.35)]" }
   ];
 
   return (
@@ -51,7 +51,7 @@ const TrustedBySection = () => {
         {/* CTA Section */}
         <div className="text-center">
           <Button 
-            className="!bg-[#6A5ACD] hover:!bg-[#5A4ABD] text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-200 hover:shadow-xl hover:scale-105"
+            className="!bg-[rgba(188,124,228,0.35)] hover:!bg-[rgba(188,124,228,0.5)] text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-200 hover:shadow-xl hover:scale-105"
           >
             Join leading MGAs using FurtherAI
           </Button>

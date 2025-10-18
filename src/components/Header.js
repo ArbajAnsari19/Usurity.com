@@ -17,8 +17,13 @@ const Header = () => {
           <div className="flex justify-between items-center h-14 sm:h-16">
             {/* Logo */}
             <Link to="/" className="flex items-center  -ml-3">
-            <img src="./usurity1.png" className="w-[50px] h-[40px]" />
-            <h1 className="text-2xl font-bold text-[#695acdea]">CUNE AI</h1>
+              <div className={`bg-[rgba(188,124,228,0.55)] rounded-lg w-40 h-9 items-center justify-center flex mb-2 mt-2`}>
+                <img 
+                  src={"/Log02.png"} 
+                  alt="CUNE AI" 
+                  className="w-30 h-10  rounded-lg p-1" 
+                />
+              </div>
             </Link>
 
             {/* Desktop Navigation */}
@@ -37,7 +42,7 @@ const Header = () => {
             {/* CTA Button */}
             <div className="hidden md:flex items-center">
               <Button 
-                className="!bg-[#6A5ACD] hover:!bg-[#5A4ABD] text-white px-4 lg:px-6 py-2 rounded-lg font-medium transition-all duration-200 hover:shadow-lg text-sm lg:text-base"
+                className="!bg-[rgba(188,124,228,0.85)] hover:!bg-[rgb(121,59,160)] text-white px-4 lg:px-6 py-2 rounded-lg font-medium transition-all duration-200 hover:shadow-lg text-sm lg:text-base"
                 onClick={() => openCalendly()}
               >
                 Book a demo
@@ -80,7 +85,7 @@ const Header = () => {
                 </Link>
                 <div className="pt-2">
                   <Button 
-                    className="!bg-[#6A5ACD] hover:!bg-[#5A4ABD] text-white px-6 py-2 rounded-lg font-medium w-full sm:w-fit"
+                    className="!bg-[rgba(188,124,228,0.35)] hover:!bg-[rgba(188,124,228,0.5)] text-white px-6 py-2 rounded-lg font-medium w-full sm:w-fit"
                     onClick={() => { setIsMenuOpen(false); openCalendly(); }}
                   >
                     Book a demo

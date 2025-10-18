@@ -76,11 +76,11 @@ const StyledWrapper = styled.div`
   
   .button {
     --white: #ffffff;
-    --green-100: #E8E4FF;
-    --green-200: #D1C7FF;
-    --green-300: #A38FFF;
-    --green-400: #6A5ACD;
-    --green-500: #5A4ABD;
+    --green-100: rgba(188,124,228,0.1);
+    --green-200: rgba(188,124,228,0.2);
+    --green-300: rgba(188,124,228,0.3);
+    --green-400: rgba(188,124,228,0.35);
+    --green-500: rgba(188,124,228,0.5);
     --radius: 14px;
 
     border-radius: var(--radius);
@@ -485,7 +485,7 @@ const StyledWrapper = styled.div`
     }
     to {
       stroke-dashoffset: -480;
-      stroke: #D1C7FF;
+      stroke: rgba(188,124,228,0.2);
     }
   }
 

@@ -4,37 +4,37 @@ import { TrendingUp, CheckCircle, FileText, Shield, Search, Globe, Building, Use
 const ScrollingStrips = () => {
   const strip1Items = [
     {
-      icon: <TrendingUp className="w-6 h-6 text-[#6A5ACD]" />,
+      icon: <TrendingUp className="w-6 h-6 text-[rgba(188,124,228,0.35)]" />,
       title: "Risk Comparison",
       description: "AI-powered risk assessment and comparison tools"
     },
     {
-      icon: <CheckCircle className="w-6 h-6 text-[#6A5ACD]" />,
+      icon: <CheckCircle className="w-6 h-6 text-[rgba(188,124,228,0.35)]" />,
       title: "Underwriting Audit",
       description: "Automated underwriting process validation"
     },
     {
-      icon: <FileText className="w-6 h-6 text-[#6A5ACD]" />,
+      icon: <FileText className="w-6 h-6 text-[rgba(188,124,228,0.35)]" />,
       title: "Submission Processing",
       description: "Streamlined submission intake and processing"
     },
     {
-      icon: <Shield className="w-6 h-6 text-[#6A5ACD]" />,
+      icon: <Shield className="w-6 h-6 text-[rgba(188,124,228,0.35)]" />,
       title: "SOCO",
       description: "Statement of Commercial Operations management"
     },
     {
-      icon: <Search className="w-6 h-6 text-[#6A5ACD]" />,
+      icon: <Search className="w-6 h-6 text-[rgba(188,124,228,0.35)]" />,
       title: "Web Research",
       description: "Intelligent web-based research capabilities"
     },
     {
-      icon: <Globe className="w-6 h-6 text-[#6A5ACD]" />,
+      icon: <Globe className="w-6 h-6 text-[rgba(188,124,228,0.35)]" />,
       title: "FNOL",
       description: "First Notice of Loss processing automation"
     },
     {
-      icon: <Building className="w-6 h-6 text-[#6A5ACD]" />,
+      icon: <Building className="w-6 h-6 text-[rgba(188,124,228,0.35)]" />,
       title: "Policy Analysis",
       description: "Comprehensive policy review and analysis"
     }
@@ -42,37 +42,37 @@ const ScrollingStrips = () => {
 
   const strip2Items = [
     {
-      icon: <BarChart3 className="w-6 h-6 text-blue-600" />,
+      icon: <BarChart3 className="w-6 h-6 text-[rgba(188,124,228,0.35)]" />,
       title: "Real-time Analytics",
       description: "Live data insights and performance metrics"
     },
     {
-      icon: <Zap className="w-6 h-6 text-blue-600" />,
+      icon: <Zap className="w-6 h-6 text-[rgba(188,124,228,0.35)]" />,
       title: "Smart Automation",
       description: "Intelligent process automation workflows"
     },
     {
-      icon: <Target className="w-6 h-6 text-blue-600" />,
+      icon: <Target className="w-6 h-6 text-[rgba(188,124,228,0.35)]" />,
       title: "Compliance Monitoring",
       description: "Automated regulatory compliance tracking"
     },
     {
-      icon: <Users className="w-6 h-6 text-blue-600" />,
+      icon: <Users className="w-6 h-6 text-[rgba(188,124,228,0.35)]" />,
       title: "Team Collaboration",
       description: "Enhanced team communication and coordination"
     },
     {
-      icon: <Settings className="w-6 h-6 text-blue-600" />,
+      icon: <Settings className="w-6 h-6 text-[rgba(188,124,228,0.35)]" />,
       title: "Process Optimization",
       description: "Continuous improvement and efficiency gains"
     },
     {
-      icon: <CheckCircle className="w-6 h-6 text-blue-600" />,
+      icon: <CheckCircle className="w-6 h-6 text-[rgba(188,124,228,0.35)]" />,
       title: "Quality Assurance",
       description: "Automated quality control and validation"
     },
     {
-      icon: <TrendingUp className="w-6 h-6 text-blue-600" />,
+      icon: <TrendingUp className="w-6 h-6 text-[rgba(188,124,228,0.35)]" />,
       title: "Performance Tracking",
       description: "Comprehensive performance monitoring and reporting"
     }

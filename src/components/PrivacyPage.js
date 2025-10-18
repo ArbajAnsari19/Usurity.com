@@ -52,7 +52,7 @@ const PrivacyPage = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
               <div className="bg-gray-50 p-6 rounded-lg">
                 <div className="flex items-center mb-4">
-                  <Users className="w-6 h-6 text-[#6A5ACD] mr-3" />
+                  <Users className="w-6 h-6 text-[rgba(188,124,228,0.35)] mr-3" />
                   <h3 className="text-xl font-semibold text-gray-900">A. Information You Provide</h3>
                 </div>
                 <ul className="text-gray-700 space-y-2 list-disc pl-5">
@@ -65,7 +65,7 @@ const PrivacyPage = () => {
               
               <div className="bg-gray-50 p-6 rounded-lg">
                 <div className="flex items-center mb-4">
-                  <Database className="w-6 h-6 text-[#6A5ACD] mr-3" />
+                  <Database className="w-6 h-6 text-[rgba(188,124,228,0.35)] mr-3" />
                   <h3 className="text-xl font-semibold text-gray-900">B. Automatically Collected Information</h3>
                 </div>
                 <ul className="text-gray-700 space-y-2 list-disc pl-5">
@@ -111,7 +111,7 @@ const PrivacyPage = () => {
             <h2 className="text-3xl font-bold text-gray-900 mb-6">AI & Automated Processing</h2>
             <div className="bg-gray-50 p-8 rounded-lg">
                 <div className="flex items-center mb-4">
-                    <Cpu className="w-8 h-8 text-[#6A5ACD] mr-4" />
+                    <Cpu className="w-8 h-8 text-[rgba(188,124,228,0.35)] mr-4" />
                     <h3 className="text-2xl font-semibold text-gray-900">Our Use of AI</h3>
                 </div>
                 <div className="prose prose-lg max-w-none text-gray-700">
@@ -124,7 +124,7 @@ const PrivacyPage = () => {
           {/* Data Security */}
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Data Security</h2>
-            <div className="bg-gradient-to-r from-[#6A5ACD] to-[#4A3A9D] p-8 rounded-lg text-white">
+            <div className="bg-gradient-to-r from-[rgba(188,124,228,0.35)] to-[rgba(188,124,228,0.5)] p-8 rounded-lg text-white">
               <div className="flex items-center mb-4">
                 <Lock className="w-8 h-8 text-white mr-3" />
                 <h3 className="text-2xl font-semibold">Our Security Commitment</h3>
@@ -174,7 +174,7 @@ const PrivacyPage = () => {
             <h2 className="text-3xl font-bold text-gray-900 mb-6">International Transfers</h2>
             <div className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-lg flex items-start">
-                    <Globe className="w-10 h-10 text-[#6A5ACD] mr-5 mt-1 flex-shrink-0" />
+                    <Globe className="w-10 h-10 text-[rgba(188,124,228,0.35)] mr-5 mt-1 flex-shrink-0" />
                     <div>
                         <h3 className="text-xl font-semibold text-gray-900">Global Data Processing</h3>
                         <p className="text-lg text-gray-700 leading-relaxed mt-2">
@@ -190,7 +190,7 @@ const PrivacyPage = () => {
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Data Retention</h2>
             <div className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-lg flex items-start">
-                    <FileClock className="w-10 h-10 text-[#6A5ACD] mr-5 mt-1 flex-shrink-0" />
+                    <FileClock className="w-10 h-10 text-[rgba(188,124,228,0.35)] mr-5 mt-1 flex-shrink-0" />
                     <div>
                         <h3 className="text-xl font-semibold text-gray-900">How Long We Keep Information</h3>
                         <p className="text-lg text-gray-700 leading-relaxed mt-2">
@@ -225,7 +225,7 @@ const PrivacyPage = () => {
               </div>
             </div>
             <p className="prose prose-lg max-w-none text-lg text-gray-700 leading-relaxed mt-6">
-                To exercise rights, contact us at <a href="mailto:hello@getcune.com" className="text-[#6A5ACD] font-medium">hello@getcune.com</a>. We may need to verify your identity.
+                To exercise rights, contact us at <a href="mailto:hello@getcune.com" className="text-[rgba(188,124,228,0.35)] font-medium">hello@getcune.com</a>. We may need to verify your identity.
             </p>
           </div>
 
@@ -247,7 +247,7 @@ const PrivacyPage = () => {
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Children’s Privacy</h2>
             <div className="prose prose-lg max-w-none flex items-center bg-gray-50 p-6 rounded-lg">
-                <Baby className="w-8 h-8 text-[#6A5ACD] mr-4 flex-shrink-0" />
+                <Baby className="w-8 h-8 text-[rgba(188,124,228,0.35)] mr-4 flex-shrink-0" />
                 <p className="text-lg text-gray-700 leading-relaxed">
                     The Services are not directed to children under 13. If we learn we collected personal information from a child under 13 without required consent, we will delete it.
                 </p>
@@ -260,18 +260,18 @@ const PrivacyPage = () => {
             <div className="space-y-8">
                 <div className="bg-gray-50 p-6 rounded-lg">
                     <div className="flex items-center mb-3">
-                        <MapPin className="w-6 h-6 text-[#6A5ACD] mr-3" />
+                        <MapPin className="w-6 h-6 text-[rgba(188,124,228,0.35)] mr-3" />
                         <h3 className="text-xl font-semibold text-gray-900">India (Digital Personal Data Protection Act, 2023)</h3>
                     </div>
                     <ul className="text-gray-700 space-y-2 list-disc pl-5">
                         <li>We act as a <strong>Data Fiduciary</strong> for our own data collection and a <strong>Data Processor</strong> on behalf of our customers.</li>
                         <li>You may exercise applicable rights (e.g., access, correction, erasure, grievance redressal) by contacting our Grievance Officer.</li>
-                        <li><strong>Grievance Officer (DPDP 2023):</strong> Hardik Agarwal, <a href="mailto:hello@getcune.com" className="text-[#6A5ACD]">hello@getcune.com</a></li>
+                        <li><strong>Grievance Officer (DPDP 2023):</strong> Hardik Agarwal, <a href="mailto:hello@getcune.com" className="text-[rgba(188,124,228,0.35)]">hello@getcune.com</a></li>
                     </ul>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-lg">
                     <div className="flex items-center mb-3">
-                        <MapPin className="w-6 h-6 text-[#6A5ACD] mr-3" />
+                        <MapPin className="w-6 h-6 text-[rgba(188,124,228,0.35)] mr-3" />
                         <h3 className="text-xl font-semibold text-gray-900">California (CCPA/CPRA)</h3>
                     </div>
                     <ul className="text-gray-700 space-y-2 list-disc pl-5">
@@ -286,7 +286,7 @@ const PrivacyPage = () => {
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Third-Party Sites & Integrations</h2>
             <div className="prose prose-lg max-w-none flex items-center bg-gray-50 p-6 rounded-lg">
-                <LinkIcon className="w-8 h-8 text-[#6A5ACD] mr-4 flex-shrink-0" />
+                <LinkIcon className="w-8 h-8 text-[rgba(188,124,228,0.35)] mr-4 flex-shrink-0" />
                 <p className="text-lg text-gray-700 leading-relaxed">
                     The Services may link to third-party sites or allow integrations. We don’t control third-party privacy practices; please review their policies before providing personal information.
                 </p>
@@ -297,9 +297,9 @@ const PrivacyPage = () => {
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Data Processing Addendum (DPA)</h2>
             <div className="prose prose-lg max-w-none flex items-center bg-gray-50 p-6 rounded-lg">
-                <FileText className="w-8 h-8 text-[#6A5ACD] mr-4 flex-shrink-0" />
+                <FileText className="w-8 h-8 text-[rgba(188,124,228,0.35)] mr-4 flex-shrink-0" />
                 <p className="text-lg text-gray-700 leading-relaxed">
-                    If your organization needs a DPA (including SCCs/UK IDTA and India DPDP alignment), contact <a href="mailto:hello@getcune.com" className="text-[#6A5ACD] font-medium">hello@getcune.com</a> for our standard DPA and Trust Pack.
+                    If your organization needs a DPA (including SCCs/UK IDTA and India DPDP alignment), contact <a href="mailto:hello@getcune.com" className="text-[rgba(188,124,228,0.35)] font-medium">hello@getcune.com</a> for our standard DPA and Trust Pack.
                 </p>
             </div>
           </div>
@@ -309,7 +309,7 @@ const PrivacyPage = () => {
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Contact Us</h2>
             <div className="bg-gradient-to-br from-gray-50 to-gray-100 p-8 rounded-lg">
               <div className="flex items-center mb-4">
-                <Mail className="w-6 h-6 text-[#6A5ACD] mr-3" />
+                <Mail className="w-6 h-6 text-[rgba(188,124,228,0.35)] mr-3" />
                 <h3 className="text-xl font-semibold text-gray-900">Questions or Concerns?</h3>
               </div>
               <p className="text-gray-700 mb-4">
@@ -317,7 +317,7 @@ const PrivacyPage = () => {
               </p>
               <div className="text-gray-700 space-y-1">
                 <p><strong>Company:</strong> Masteryoda Solutions Pvt. Ltd. (d/b/a CUNE)</p>
-                <p><strong>Email:</strong> <a href="mailto:hello@getcune.com" className="text-[#6A5ACD] font-medium">hello@getcune.com</a></p>
+                <p><strong>Email:</strong> <a href="mailto:hello@getcune.com" className="text-[rgba(188,124,228,0.35)] font-medium">hello@getcune.com</a></p>
                 <p><strong>Address:</strong> Mantri Commercio Tower-A, Marathahalli - Sarjapur Outer Ring Rd, Kariyammana Agrahara, Bellandur, Bengaluru, Karnataka 560103</p>
               </div>
             </div>

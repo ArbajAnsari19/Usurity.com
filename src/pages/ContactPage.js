@@ -62,19 +62,19 @@ const ContactPage = () => {
 
   const contactInfo = [
     {
-      icon: <Mail className="w-6 h-6 text-[#6A5ACD]" />,
+      icon: <Mail className="w-6 h-6 text-[rgba(188,124,228,0.85)]" />,
       title: "Email",
       value: "hello@getcune.com",
       description: "Send us an email anytime"
     },
     {
-      icon: <Phone className="w-6 h-6 text-[#6A5ACD]" />,
+      icon: <Phone className="w-6 h-6 text-[rgba(188,124,228,0.85)]" />,
       title: "Phone",
       value: "+1 617-429-4395",
       description: "Mon-Fri from 9am to 6pm"
     },
     {
-      icon: <MapPin className="w-6 h-6 text-[#6A5ACD]" />,
+      icon: <MapPin className="w-6 h-6 text-[rgba(188,124,228,0.85)]" />,
       title: "Office",
       value: " 45 Vinton St, Boston MA 02127",
       description: "Visit us at our headquarters"
@@ -120,7 +120,7 @@ const ContactPage = () => {
                   </p>
                   <Button 
                     onClick={() => setIsSubmitted(false)}
-                    className="bg-[#6A5ACD] hover:bg-[#5A4ABD] text-white"
+                    className="bg-[rgba(188,124,228,0.85)] hover:bg-[rgba(188,124,228,0.5)] text-white"
                   >
                     Send Another Message
                   </Button>
@@ -194,7 +194,7 @@ const ContactPage = () => {
                   <Button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full bg-[#6A5ACD] hover:bg-[#5A4ABD] text-white py-3 text-lg font-medium"
+                    className="w-full bg-[rgba(188,124,228,0.85)] hover:bg-[rgba(188,124,228,0.5)] text-white py-3 text-lg font-medium"
                   >
                     {isSubmitting ? (
                       <div className="flex items-center justify-center">
@@ -229,7 +229,7 @@ const ContactPage = () => {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-1">{info.title}</h3>
-                      <p className="text-[#6A5ACD] font-medium mb-1">{info.value}</p>
+                      <p className="text-[rgba(188,124,228,0.85)] font-medium mb-1">{info.value}</p>
                       <p className="text-gray-600 text-sm">{info.description}</p>
                     </div>
                   </div>
@@ -237,7 +237,7 @@ const ContactPage = () => {
               </div>
 
               {/* Additional Info */}
-              <div className="bg-gradient-to-br from-[#6A5ACD] to-[#4A3A9D] rounded-lg p-8 text-white">
+              <div className="bg-gradient-to-br from-[rgba(188,124,228,0.85)] to-[rgba(188,124,228,0.5)] rounded-lg p-8 text-white">
                 <h3 className="text-xl font-bold mb-4">Why Choose CUNE AI?</h3>
                 <ul className="space-y-3 text-sm">
                   <li className="flex items-center">
@@ -273,7 +273,7 @@ const ContactPage = () => {
             Schedule a demo to see how CUNE AI can transform your insurance operations
           </p>
           <Button 
-            className="bg-[#6A5ACD] hover:bg-[#5A4ABD] text-white px-8 py-5 text-lg font-medium"
+            className="bg-[rgba(188,124,228,0.85)] hover:bg-[rgba(188,124,228,0.5)] text-white px-8 py-5 text-lg font-medium"
             onClick={() => openCalendly()}
           >
             Schedule a Demo
