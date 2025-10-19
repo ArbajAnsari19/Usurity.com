@@ -114,14 +114,6 @@ const StyledWrapper = styled.div`
   .bg::before {
     filter: blur(5px);
     transition: all 0.3s ease;
-    box-shadow:
-      0 4px 0 0 rgb(90 74 189 / 40%),
-      0 8px 0 0 rgb(90 74 189 / 30%),
-      0 12px 4px 0 rgb(90 74 189 / 25%),
-      0 16px 8px 0 rgb(90 74 189 / 15%),
-      0 20px 12px 0 rgb(90 74 189 / 12%),
-      0 24px 16px 0 rgb(90 74 189 / 8%),
-      0 28px 20px 0 rgb(90 74 189 / 5%);
   }
 
   .wrap {
@@ -345,10 +337,6 @@ const StyledWrapper = styled.div`
   .button:active .bg::before {
     filter: blur(5px);
     opacity: 0.7;
-    box-shadow:
-      0 2px 0 0 rgb(90 74 189 / 40%),
-      0 4px 0 0 rgb(90 74 189 / 25%),
-      0 6px 4px 0 rgb(90 74 189 / 15%);
   }
   .button:active .content {
     box-shadow:
