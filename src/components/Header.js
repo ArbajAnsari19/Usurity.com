@@ -16,14 +16,12 @@ const Header = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-14 sm:h-16">
             {/* Logo */}
-            <Link to="/" className="flex items-center  -ml-3">
-              <div className={`bg-[rgba(188,124,228,0.55)] rounded-lg w-40 h-9 items-center justify-center flex mb-2 mt-2`}>
+            <Link to="/" className="flex items-center">
                 <img 
-                  src={"/Log02.png"} 
+                  src={"/logo_Dark-removebg-preview.png"} 
                   alt="CUNE AI" 
-                  className="w-30 h-10  rounded-lg p-1" 
+                  className="h-10 w-auto bg-[rgba(188,124,228,0.85)] rounded-lg p-2 object-contain" 
                 />
-              </div>
             </Link>
 
             {/* Desktop Navigation */}
