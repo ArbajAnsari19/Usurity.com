@@ -16,9 +16,8 @@ const Header = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-14 sm:h-16">
             {/* Logo */}
-            <Link to="/" className="flex items-center  -ml-3">
-            <img src="./usurity1.png" className="w-[50px] h-[40px]" />
-            <h1 className="text-2xl font-bold text-[#695acdea]">CUNE AI</h1>
+            <Link to="/" className="flex items-center  -ml-3 bg-[rgba(90,74,189,0.90)] rounded-lg p-2">
+            <img src="./Log02.png" className="w-[95px] h-[25px]" />
             </Link>
 
             {/* Desktop Navigation */}
